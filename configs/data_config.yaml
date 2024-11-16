@@ -1,0 +1,93 @@
+# Data Configuration
+dataset:
+  name: "scannet"
+  root_dir: "data/scannet/"
+  processed_dir: "data/processed/"
+  splits_dir: "data/splits/"
+  
+  # Data loading
+  num_points: 8192
+  voxel_size: 0.02
+  use_color: true
+  use_normal: true
+  cache_size: 30000
+
+  # Scene processing
+  min_points_per_instance: 100
+  ignore_instance_threshold: 100
+  max_instances_per_scene: 64
+
+# Augmentation parameters
+augmentation:
+  enable: true
+  train:
+    random_rotation:
+      enable: true
+      angle_range: [-0.2617994, 0.2617994]  # [-15°, +15°]
+      axis: [0, 1, 0]  # rotate around y-axis
+    
+    random_scale:
+      enable: true
+      scale_range: [0.8, 1.2]
+    
+    random_flip:
+      enable: true
+      axes: [0, 1]  # flip along x and y axes
+    
+    random_jitter:
+      enable: true
+      std: 0.01
+      clip: 0.05
+    
+    dropout:
+      enable: true
+      max_dropout_ratio: 0.2
+    
+    elastic_distortion:
+      enable: true
+      granularity: 0.2
+      magnitude: 0.4
+
+  test:
+    enable: false
+
+# Feature engineering
+features:
+  geometric:
+    normal_estimation:
+      enable: true
+      k_neighbors: 30
+    
+    curvature:
+      enable: true
+      k_neighbors: 30
+    
+    height:
+      enable: true
+      normalize: true
+    
+    eigenfeatures:
+      enable: true
+      k_neighbors: 30
+      features: ["linearity", "planarity", "sphericity"]
+  
+  contextual:
+    knn:
+      enable: true
+      k_neighbors: 20
+      features: ["mean", "std", "max"]
+    
+    density:
+      enable: true
+      radius: 0.1
+    
+    edge:
+      enable: true
+      threshold: 0.1
+
+# Data splitting
+splits:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42

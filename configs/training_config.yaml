@@ -1,0 +1,97 @@
+# General Training Configuration
+experiment:
+  name: "scannet_instance_seg"
+  notes: "Instance segmentation on ScanNet dataset"
+  tags: ["scannet", "instance", "3d"]
+  
+# Hardware settings
+hardware:
+  device: "mps"  # Use Metal Performance Shaders for Apple Silicon
+  num_workers: 4
+  pin_memory: true
+  
+# Training loop
+training:
+  seed: 42
+  deterministic: true
+  
+  # Base training parameters
+  num_epochs: 200
+  save_interval: 5
+  eval_interval: 1
+  
+  # Batch sizes
+  batch_size:
+    train: 8
+    val: 16
+    test: 16
+  
+  # Checkpointing
+  checkpointing:
+    save_dir: "data/checkpoints"
+    save_best: true
+    save_last: true
+    save_interval_epochs: 10
+    
+  # Mixed precision training
+  amp:
+    enabled: true
+    dtype: "float16"
+    
+  # Gradient settings
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+
+# Logging configuration
+logging:
+  # Weights & Biases settings
+  wandb:
+    enabled: true
+    project: "pointcloud_segmentation"
+    entity: null  # Set your W&B username/team
+    log_interval: 100
+    
+  # Local logging
+  local:
+    log_dir: "logs"
+    save_interval: 100
+    
+  # Visualization settings
+  visualization:
+    enabled: true
+    num_samples: 4
+    max_points: 10000
+    save_dir: "visualizations"
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - "map"
+    - "miou"
+    - "accuracy"
+    - "precision"
+    - "recall"
+    
+  # Validation settings
+  validation:
+    interval: 1
+    max_instances: 64
+    score_threshold: 0.5
+    nms_threshold: 0.3
+    
+  # Test-time augmentation
+  tta:
+    enabled: false
+    num_augmentations: 5
+
+# Debugging
+debug:
+  enabled: false
+  subset_size: 100
+  profile_memory: false
+  
+# Multi-GPU training
+distributed:
+  enabled: false
+  backend: "nccl"
+  sync_bn: true

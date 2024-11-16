@@ -1,0 +1,73 @@
+# PointNet++ Model Configuration
+model:
+  name: "pointnet2"
+  type: "instance_segmentation"
+  
+  # Backbone configuration
+  backbone:
+    npoints: [4096, 1024, 256, 64]
+    radius: [0.1, 0.2, 0.4, 0.8]
+    nsamples: [32, 32, 32, 32]
+    mlps: [
+      [32, 32, 64],
+      [64, 64, 128],
+      [128, 128, 256],
+      [256, 256, 512]
+    ]
+    use_xyz: true
+    
+  # Feature propagation layers
+  fp_layers:
+    mlps: [
+      [256, 256],
+      [256, 256],
+      [256, 128],
+      [128, 128, 128]
+    ]
+    
+  # Instance head
+  instance_head:
+    feature_dim: 128
+    embedding_dim: 32
+    num_classes: 18  # ScanNet classes
+    hidden_dims: [256, 256, 128]
+    dropout: 0.3
+
+# Loss configuration
+loss:
+  semantic_weight: 1.0
+  instance_weight: 1.0
+  discriminative_weight: 1.0
+  
+  discriminative_loss:
+    delta_v: 0.5
+    delta_d: 1.5
+    alpha: 1.0
+    beta: 1.0
+    gamma: 0.001
+
+# Optimization
+optimizer:
+  type: "adam"
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  
+  scheduler:
+    type: "cosine"
+    T_max: 200
+    eta_min: 0.00001
+
+# Training
+training:
+  epochs: 200
+  batch_size: 8
+  num_workers: 4
+  log_interval: 10
+  save_interval: 5
+  
+  early_stopping:
+    patience: 10
+    min_delta: 0.001
+    
+  mixed_precision: true
+  gradient_clipping: 1.0
