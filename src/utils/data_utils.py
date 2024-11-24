@@ -1,254 +1,82 @@
-import torch
 import numpy as np
-from typing import Dict, List, Optional, Tuple
-from pathlib import Path
 import h5py
-import yaml
-from tqdm import tqdm
+from pathlib import Path
+import open3d as o3d
+import logging
+from typing import Dict, Tuple, Optional
 
 class DataProcessor:
-    """Utility class for data processing and management."""
-    
     def __init__(self, config_path: str):
-        """Initialize with configuration."""
-        with open(config_path, 'r') as f:
-            self.config = yaml.safe_load(f)
-            
-    def preprocess_dataset(self,
-                          raw_data_dir: str,
-                          output_dir: str,
-                          split: str = 'train'):
         """
-        Preprocess raw point cloud data.
+        Initialize the DataProcessor for ScanNet data.
         
         Args:
-            raw_data_dir: Directory containing raw data
-            output_dir: Output directory for processed data
-            split: Data split (train/val/test)
+            config_path: Path to configuration file
         """
-        output_dir = Path(output_dir)
-        output_dir.mkdir(exist_ok=True, parents=True)
+        self.logger = logging.getLogger('DataProcessor')
+        self.config = self._load_config(config_path)
         
-        # Get file list
-        raw_data_dir = Path(raw_data_dir)
-        files = list(raw_data_dir.glob('*.ply'))
+    def _load_config(self, config_path: str) -> dict:
+        """Load configuration from YAML file."""
+        import yaml
+        with open(config_path, 'r') as f:
+            return yaml.safe_load(f)
+    
+    def _load_point_cloud(self, ply_path: str) -> Tuple[np.ndarray, np.ndarray]:
+        """
+        Load point cloud from PLY file.
         
-        for file_path in tqdm(files, desc=f"Processing {split} data"):
-            # Load point cloud
-            points, colors, instances = self._load_raw_data(file_path)
-            
-            # Compute features
-            features = self._compute_features(points, colors)
-            
-            # Subsample if needed
-            if self.config['dataset']['num_points'] > 0:
-                points, colors, instances, features = self._subsample(
-                    points, colors, instances, features,
-                    self.config['dataset']['num_points']
-                )
-                
-            # Save processed data
-            output_path = output_dir / f"{file_path.stem}.h5"
-            self._save_processed_data(
-                output_path,
-                points, colors, instances, features
-            )
-            
-    def _load_raw_data(self, file_path: Path) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
-        """Load raw point cloud data."""
-        import open3d as o3d
-        
-        # Load PLY file
-        pcd = o3d.io.read_point_cloud(str(file_path))
+        Returns:
+            Tuple of (points, colors)
+        """
+        pcd = o3d.io.read_point_cloud(ply_path)
         points = np.asarray(pcd.points)
         colors = np.asarray(pcd.colors)
-        
-        # Load instance labels (assuming they're in a separate file)
-        instance_path = file_path.parent / 'instances' / f"{file_path.stem}.txt"
-        if instance_path.exists():
-            instances = np.loadtxt(instance_path, dtype=np.int32)
-        else:
-            instances = np.zeros(len(points), dtype=np.int32)
-            
-        return points, colors, instances
+        return points, colors
     
-    def _compute_features(self,
-                         points: np.ndarray,
-                         colors: np.ndarray) -> Dict[str, np.ndarray]:
-        """Compute point features."""
-        features = {}
-        
-        if self.config['features']['geometric']['enable']:
-            # Compute geometric features
-            features['normals'] = self._compute_normals(points)
-            features['curvature'] = self._compute_curvature(points, features['normals'])
-            
-            if self.config['features']['geometric']['eigenfeatures']['enable']:
-                eigen_features = self._compute_eigenfeatures(
-                    points,
-                    k=self.config['features']['geometric']['eigenfeatures']['k_neighbors']
-                )
-                features.update(eigen_features)
-                
-        if self.config['features']['contextual']['enable']:
-            # Compute contextual features
-            features['density'] = self._compute_density(
-                points,
-                radius=self.config['features']['contextual']['density']['radius']
-            )
-            
-            if self.config['features']['contextual']['knn']['enable']:
-                knn_features = self._compute_knn_features(
-                    points, colors,
-                    k=self.config['features']['contextual']['knn']['k_neighbors']
-                )
-                features.update(knn_features)
-                
-        return features
+    def _load_instance_labels(self, label_path: str) -> np.ndarray:
+        """Load instance labels from file."""
+        try:
+            labels = np.load(label_path)
+            return labels
+        except Exception as e:
+            self.logger.error(f"Error loading instance labels: {e}")
+            return np.zeros(0, dtype=np.int32)
     
-    def _compute_normals(self, points: np.ndarray) -> np.ndarray:
-        """Compute point normals."""
-        import open3d as o3d
-        
-        pcd = o3d.geometry.PointCloud()
-        pcd.points = o3d.utility.Vector3dVector(points)
-        pcd.estimate_normals()
-        
-        return np.asarray(pcd.normals)
+    def _normalize_points(self, points: np.ndarray) -> np.ndarray:
+        """Normalize point coordinates to unit cube."""
+        centroid = np.mean(points, axis=0)
+        points = points - centroid
+        max_distance = np.max(np.abs(points))
+        points = points / max_distance
+        return points
     
-    def _compute_curvature(self,
-                          points: np.ndarray,
-                          normals: np.ndarray) -> np.ndarray:
-        """Compute point curvature."""
-        from sklearn.neighbors import NearestNeighbors
+    def process_scene(self, scene_path: str, output_path: str):
+        """
+        Process a single ScanNet scene.
         
-        # Find k nearest neighbors
-        k = self.config['features']['geometric']['curvature']['k_neighbors']
-        nbrs = NearestNeighbors(n_neighbors=k).fit(points)
-        distances, indices = nbrs.kneighbors(points)
+        Args:
+            scene_path: Path to scene directory
+            output_path: Path to save processed data
+        """
+        scene_path = Path(scene_path)
         
-        # Compute curvature as variance of normals
-        curvature = np.zeros(len(points))
-        for i in range(len(points)):
-            neighbor_normals = normals[indices[i]]
-            curvature[i] = 1 - np.abs(np.mean(neighbor_normals.dot(normals[i])))
-            
-        return curvature
-    
-    def _compute_eigenfeatures(self,
-                             points: np.ndarray,
-                             k: int) -> Dict[str, np.ndarray]:
-        """Compute eigenvalue-based features."""
-        from sklearn.neighbors import NearestNeighbors
+        # Load point cloud data
+        points, colors = self._load_point_cloud(str(scene_path / f"{scene_path.name}_vh_clean_2.ply"))
         
-        nbrs = NearestNeighbors(n_neighbors=k).fit(points)
-        distances, indices = nbrs.kneighbors(points)
+        # Load instance labels
+        instance_labels = self._load_instance_labels(str(scene_path / f"{scene_path.name}_vh_clean_2.instances.npy"))
         
-        features = {}
-        for i in range(len(points)):
-            # Compute covariance matrix
-            neighbors = points[indices[i]]
-            centered = neighbors - neighbors.mean(axis=0)
-            cov = centered.T @ centered
-            
-            # Compute eigenvalues
-            eigenvalues = np.linalg.eigvalsh(cov)
-            eigenvalues = np.sort(eigenvalues)[::-1]
-            
-            # Compute features
-            if 'linearity' in self.config['features']['geometric']['eigenfeatures']['features']:
-                features.setdefault('linearity', []).append(
-                    (eigenvalues[0] - eigenvalues[1]) / eigenvalues[0]
-                )
-                
-            if 'planarity' in self.config['features']['geometric']['eigenfeatures']['features']:
-                features.setdefault('planarity', []).append(
-                    (eigenvalues[1] - eigenvalues[2]) / eigenvalues[0]
-                )
-                
-            if 'sphericity' in self.config['features']['geometric']['eigenfeatures']['features']:
-                features.setdefault('sphericity', []).append(
-                    eigenvalues[2] / eigenvalues[0]
-                )
-                
-        return {k: np.array(v) for k, v in features.items()}
-    
-    def _compute_density(self,
-                        points: np.ndarray,
-                        radius: float) -> np.ndarray:
-        """Compute local point density."""
-        from sklearn.neighbors import NearestNeighbors
+        # Ensure we have labels for each point
+        if len(instance_labels) != len(points):
+            self.logger.error(f"Mismatch in points ({len(points)}) and labels ({len(instance_labels)})")
+            return
         
-        nbrs = NearestNeighbors(radius=radius).fit(points)
-        distances, indices = nbrs.radius_neighbors(points)
+        # Normalize point coordinates
+        normalized_points = self._normalize_points(points)
         
-        return np.array([len(idx) for idx in indices])
-    
-    def _compute_knn_features(self,
-                            points: np.ndarray,
-                            colors: np.ndarray,
-                            k: int) -> Dict[str, np.ndarray]:
-        """Compute k-nearest neighbor features."""
-        from sklearn.neighbors import NearestNeighbors
-        
-        nbrs = NearestNeighbors(n_neighbors=k).fit(points)
-        distances, indices = nbrs.kneighbors(points)
-        
-        features = {}
-        if 'mean' in self.config['features']['contextual']['knn']['features']:
-            features['color_mean'] = np.array([
-                colors[idx].mean(axis=0) for idx in indices
-            ])
-            
-        if 'std' in self.config['features']['contextual']['knn']['features']:
-            features['color_std'] = np.array([
-                colors[idx].std(axis=0) for idx in indices
-            ])
-            
-        if 'max' in self.config['features']['contextual']['knn']['features']:
-            features['height_max'] = np.array([
-                points[idx][:, 2].max() for idx in indices
-            ])
-            
-        return features
-    
-    def _subsample(self,
-                  points: np.ndarray,
-                  colors: np.ndarray,
-                  instances: np.ndarray,
-                  features: Dict[str, np.ndarray],
-                  num_points: int) -> Tuple:
-        """Randomly subsample points."""
-        if len(points) <= num_points:
-            return points, colors, instances, features
-            
-        indices = np.random.choice(
-            len(points), num_points, replace=False
-        )
-        
-        subsampled_features = {
-            k: v[indices] for k, v in features.items()
-        }
-        
-        return (
-            points[indices],
-            colors[indices],
-            instances[indices],
-            subsampled_features
-        )
-    
-    def _save_processed_data(self,
-                           output_path: Path,
-                           points: np.ndarray,
-                           colors: np.ndarray,
-                           instances: np.ndarray,
-                           features: Dict[str, np.ndarray]):
-        """Save processed data to HDF5 format."""
+        # Save processed data
         with h5py.File(output_path, 'w') as f:
-            f.create_dataset('points', data=points)
-            f.create_dataset('colors', data=colors)
-            f.create_dataset('instances', data=instances)
-            
-            features_group = f.create_group('features')
-            for name, feature in features.items():
-                features_group.create_dataset(name, data=feature)
+            f.create_dataset('points', data=normalized_points, dtype='float32')
+            f.create_dataset('colors', data=colors, dtype='float32')
+            f.create_dataset('instance_labels', data=instance_labels, dtype='int32')

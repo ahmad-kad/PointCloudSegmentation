@@ -1,0 +1,34 @@
+Dataset Statistics Summary
+========================
+
+General Statistics:
+Total number of scenes: 1513
+Average points per scene: 8192.0
+Average instances per scene: 33.2
+Scenes with normals: 1513
+
+Available Features:
+height: 1513 scenes
+normals: 1513 scenes
+
+Semantic Label Statistics:
+unannotated: 4431383 points
+wall: 2935589 points
+floor: 2299656 points
+cabinet: 181998 points
+bed: 238856 points
+table: 258155 points
+door: 329255 points
+window: 339825 points
+desk: 169505 points
+curtain: 168679 points
+refrigerator: 46834 points
+shower: 32736 points
+toilet: 67165 points
+sink: 41353 points
+counter: 28198 points
+chair: 498048 points
+picture: 41851 points
+bookshelf: 206090 points
+bathtub: 79189 points
+sofa: 131 points

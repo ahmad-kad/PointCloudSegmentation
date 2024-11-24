@@ -1,0 +1,732 @@
+2024-11-17 17:46:43,794 - training - INFO - Using device: cuda
+2024-11-17 17:46:44,677 - training - INFO - Epoch 1/100
+2024-11-17 17:49:48,593 - training - INFO - Training loss: 0.3153
+2024-11-17 17:50:00,307 - training - INFO - Validation loss: 0.2155
+2024-11-17 17:50:00,318 - training - INFO - Saved new best model
+2024-11-17 17:50:00,319 - training - INFO - Epoch 2/100
+2024-11-17 17:53:04,546 - training - INFO - Training loss: 0.2123
+2024-11-17 17:53:16,173 - training - INFO - Validation loss: 0.2005
+2024-11-17 17:53:16,183 - training - INFO - Saved new best model
+2024-11-17 17:53:16,183 - training - INFO - Epoch 3/100
+2024-11-17 17:56:22,785 - training - INFO - Training loss: 0.2010
+2024-11-17 17:56:34,592 - training - INFO - Validation loss: 0.1900
+2024-11-17 17:56:34,608 - training - INFO - Saved new best model
+2024-11-17 17:56:34,609 - training - INFO - Epoch 4/100
+2024-11-17 17:59:39,215 - training - INFO - Training loss: 0.1918
+2024-11-17 17:59:50,840 - training - INFO - Validation loss: 0.1894
+2024-11-17 17:59:50,850 - training - INFO - Saved new best model
+2024-11-17 17:59:50,851 - training - INFO - Epoch 5/100
+2024-11-17 18:02:53,962 - training - INFO - Training loss: 0.1879
+2024-11-17 18:03:05,632 - training - INFO - Validation loss: 0.1835
+2024-11-17 18:03:05,641 - training - INFO - Saved new best model
+2024-11-17 18:03:05,642 - training - INFO - Epoch 6/100
+2024-11-17 18:06:09,781 - training - INFO - Training loss: 0.1809
+2024-11-17 18:06:21,598 - training - INFO - Validation loss: 0.1826
+2024-11-17 18:06:21,608 - training - INFO - Saved new best model
+2024-11-17 18:06:21,608 - training - INFO - Epoch 7/100
+2024-11-17 18:09:25,875 - training - INFO - Training loss: 0.1799
+2024-11-17 18:09:37,693 - training - INFO - Validation loss: 0.1787
+2024-11-17 18:09:37,703 - training - INFO - Saved new best model
+2024-11-17 18:09:37,703 - training - INFO - Epoch 8/100
+2024-11-17 18:12:40,341 - training - INFO - Training loss: 0.1774
+2024-11-17 18:12:52,009 - training - INFO - Validation loss: 0.1806
+2024-11-17 18:12:52,010 - training - INFO - Epoch 9/100
+2024-11-17 18:15:56,480 - training - INFO - Training loss: 0.1778
+2024-11-17 18:16:08,339 - training - INFO - Validation loss: 0.1756
+2024-11-17 18:16:08,348 - training - INFO - Saved new best model
+2024-11-17 18:16:08,349 - training - INFO - Epoch 10/100
+2024-11-17 18:19:12,447 - training - INFO - Training loss: 0.1726
+2024-11-17 18:19:24,240 - training - INFO - Validation loss: 0.1732
+2024-11-17 18:19:24,250 - training - INFO - Saved new best model
+2024-11-17 18:19:24,250 - training - INFO - Epoch 11/100
+2024-11-17 18:22:28,129 - training - INFO - Training loss: 0.1719
+2024-11-17 18:22:39,942 - training - INFO - Validation loss: 0.1720
+2024-11-17 18:22:39,951 - training - INFO - Saved new best model
+2024-11-17 18:22:39,951 - training - INFO - Epoch 12/100
+2024-11-17 18:25:44,294 - training - INFO - Training loss: 0.1709
+2024-11-17 18:25:55,971 - training - INFO - Validation loss: 0.1748
+2024-11-17 18:25:55,971 - training - INFO - Epoch 13/100
+2024-11-17 18:28:59,976 - training - INFO - Training loss: 0.1700
+2024-11-17 18:29:11,578 - training - INFO - Validation loss: 0.1759
+2024-11-17 18:29:11,579 - training - INFO - Epoch 14/100
+2024-11-17 18:32:16,282 - training - INFO - Training loss: 0.1710
+2024-11-17 18:32:28,070 - training - INFO - Validation loss: 0.1720
+2024-11-17 18:32:28,070 - training - INFO - Epoch 15/100
+2024-11-17 18:35:33,040 - training - INFO - Training loss: 0.1692
+2024-11-17 18:35:44,821 - training - INFO - Validation loss: 0.1715
+2024-11-17 18:35:44,830 - training - INFO - Saved new best model
+2024-11-17 18:35:44,831 - training - INFO - Epoch 16/100
+2024-11-17 18:38:49,101 - training - INFO - Training loss: 0.1681
+2024-11-17 18:39:00,833 - training - INFO - Validation loss: 0.1740
+2024-11-17 18:39:00,833 - training - INFO - Epoch 17/100
+2024-11-17 18:42:05,196 - training - INFO - Training loss: 0.1669
+2024-11-17 18:42:16,794 - training - INFO - Validation loss: 0.1694
+2024-11-17 18:42:16,804 - training - INFO - Saved new best model
+2024-11-17 18:42:16,804 - training - INFO - Epoch 18/100
+2024-11-17 18:45:21,431 - training - INFO - Training loss: 0.1683
+2024-11-17 18:45:33,165 - training - INFO - Validation loss: 0.1737
+2024-11-17 18:45:33,166 - training - INFO - Epoch 19/100
+2024-11-17 18:48:38,131 - training - INFO - Training loss: 0.1663
+2024-11-17 18:48:49,840 - training - INFO - Validation loss: 0.1679
+2024-11-17 18:48:49,850 - training - INFO - Saved new best model
+2024-11-17 18:48:49,850 - training - INFO - Epoch 20/100
+2024-11-17 18:51:54,246 - training - INFO - Training loss: 0.1650
+2024-11-17 18:52:05,802 - training - INFO - Validation loss: 0.1760
+2024-11-17 18:52:05,803 - training - INFO - Epoch 21/100
+2024-11-17 18:55:10,452 - training - INFO - Training loss: 0.1667
+2024-11-17 18:55:22,244 - training - INFO - Validation loss: 0.1675
+2024-11-17 18:55:22,254 - training - INFO - Saved new best model
+2024-11-17 18:55:22,254 - training - INFO - Epoch 22/100
+2024-11-17 18:58:25,045 - training - INFO - Training loss: 0.1666
+2024-11-17 18:58:36,817 - training - INFO - Validation loss: 0.1741
+2024-11-17 18:58:36,817 - training - INFO - Epoch 23/100
+2024-11-17 19:01:41,221 - training - INFO - Training loss: 0.1651
+2024-11-17 19:01:53,061 - training - INFO - Validation loss: 0.1678
+2024-11-17 19:01:53,061 - training - INFO - Epoch 24/100
+2024-11-17 19:04:57,294 - training - INFO - Training loss: 0.1646
+2024-11-17 19:05:09,104 - training - INFO - Validation loss: 0.1646
+2024-11-17 19:05:09,114 - training - INFO - Saved new best model
+2024-11-17 19:05:09,114 - training - INFO - Epoch 25/100
+2024-11-17 19:08:12,680 - training - INFO - Training loss: 0.1646
+2024-11-17 19:08:24,536 - training - INFO - Validation loss: 0.1666
+2024-11-17 19:08:24,537 - training - INFO - Epoch 26/100
+2024-11-17 19:11:27,762 - training - INFO - Training loss: 0.1639
+2024-11-17 19:11:39,414 - training - INFO - Validation loss: 0.1664
+2024-11-17 19:11:39,414 - training - INFO - Epoch 27/100
+2024-11-17 19:14:43,496 - training - INFO - Training loss: 0.1647
+2024-11-17 19:14:55,235 - training - INFO - Validation loss: 0.1667
+2024-11-17 19:14:55,235 - training - INFO - Epoch 28/100
+2024-11-17 19:18:02,959 - training - INFO - Training loss: 0.1615
+2024-11-17 19:18:15,058 - training - INFO - Validation loss: 0.1726
+2024-11-17 19:18:15,058 - training - INFO - Epoch 29/100
+2024-11-17 19:25:14,779 - training - INFO - Using device: cuda
+2024-11-17 19:29:24,884 - training - INFO - Using device: cuda
+2024-11-17 19:29:25,808 - training - INFO - Epoch 1/50
+2024-11-17 19:32:02,286 - training - INFO - Epoch 2/50
+2024-11-17 19:34:49,173 - training - INFO - Epoch 3/50
+2024-11-17 19:37:47,723 - training - INFO - Epoch 4/50
+2024-11-17 19:40:46,992 - training - INFO - Epoch 5/50
+2024-11-17 19:57:25,112 - training - INFO - Using device: cuda
+2024-11-17 19:57:25,993 - training - INFO - Epoch 1/50
+2024-11-17 20:00:06,263 - training - INFO - Training loss: 36.7757
+2024-11-17 20:00:25,563 - training - INFO - Validation loss: 35.5719
+2024-11-17 20:00:25,750 - training - INFO - Saved new best model with validation loss: 35.5719
+2024-11-17 20:00:25,750 - training - INFO - Epoch 2/50
+2024-11-17 20:03:05,337 - training - INFO - Training loss: 35.3787
+2024-11-17 20:03:24,647 - training - INFO - Validation loss: 34.3122
+2024-11-17 20:03:24,781 - training - INFO - Saved new best model with validation loss: 34.3122
+2024-11-17 20:03:24,782 - training - INFO - Epoch 3/50
+2024-11-17 20:06:00,257 - training - INFO - Training loss: 34.4425
+2024-11-17 20:06:19,324 - training - INFO - Validation loss: 33.8041
+2024-11-17 20:06:19,469 - training - INFO - Saved new best model with validation loss: 33.8041
+2024-11-17 20:06:19,469 - training - INFO - Epoch 4/50
+2024-11-17 20:08:57,786 - training - INFO - Training loss: 34.2358
+2024-11-17 20:09:16,630 - training - INFO - Validation loss: 33.7648
+2024-11-17 20:09:16,777 - training - INFO - Saved new best model with validation loss: 33.7648
+2024-11-17 20:09:16,778 - training - INFO - Epoch 5/50
+2024-11-17 20:11:55,715 - training - INFO - Training loss: 34.0966
+2024-11-17 20:12:14,230 - training - INFO - Validation loss: 33.5850
+2024-11-17 20:28:42,863 - training - INFO - Using device: cuda
+2024-11-17 20:28:43,936 - training - INFO - Epoch 1/50
+2024-11-17 20:28:57,138 - training - INFO - Detailed losses - Var: 0.1113, Dist: 0.0049, Reg: 0.0000, Center: 5.0339, Boundary: 0.0668, Lovasz: 31.8171
+2024-11-17 20:28:57,649 - training - INFO - Detailed losses - Var: 0.1127, Dist: 0.0052, Reg: 0.0000, Center: 5.7910, Boundary: 0.0447, Lovasz: 31.7827
+2024-11-17 20:28:58,095 - training - INFO - Detailed losses - Var: 0.0934, Dist: 0.0055, Reg: 0.0000, Center: 5.2307, Boundary: 0.0734, Lovasz: 25.6361
+2024-11-17 20:28:58,692 - training - INFO - Detailed losses - Var: 0.1323, Dist: 0.0046, Reg: 0.0000, Center: 8.6669, Boundary: 0.0520, Lovasz: 40.7587
+2024-11-17 20:28:59,252 - training - INFO - Detailed losses - Var: 0.1113, Dist: 0.0049, Reg: 0.0000, Center: 6.8397, Boundary: 0.0470, Lovasz: 37.6300
+2024-11-17 20:28:59,750 - training - INFO - Detailed losses - Var: 0.0955, Dist: 0.0063, Reg: 0.0000, Center: 5.2243, Boundary: 0.0563, Lovasz: 28.6258
+2024-11-17 20:29:00,160 - training - INFO - Detailed losses - Var: 0.0772, Dist: 0.0063, Reg: 0.0000, Center: 4.7779, Boundary: 0.0850, Lovasz: 22.9915
+2024-11-17 20:29:00,653 - training - INFO - Detailed losses - Var: 0.1029, Dist: 0.0056, Reg: 0.0000, Center: 6.2586, Boundary: 0.0485, Lovasz: 30.9842
+2024-11-17 20:29:01,121 - training - INFO - Detailed losses - Var: 0.0783, Dist: 0.0066, Reg: 0.0000, Center: 5.0686, Boundary: 0.0717, Lovasz: 28.7617
+2024-11-17 20:29:01,519 - training - INFO - Detailed losses - Var: 0.0569, Dist: 0.0069, Reg: 0.0000, Center: 3.7473, Boundary: 0.0634, Lovasz: 22.1059
+2024-11-17 20:29:02,050 - training - INFO - Detailed losses - Var: 0.0967, Dist: 0.0063, Reg: 0.0000, Center: 6.0666, Boundary: 0.0443, Lovasz: 35.1898
+2024-11-17 20:29:02,685 - training - INFO - Detailed losses - Var: 0.0757, Dist: 0.0068, Reg: 0.0000, Center: 4.9557, Boundary: 0.0712, Lovasz: 45.8517
+2024-11-17 20:29:03,203 - training - INFO - Detailed losses - Var: 0.0680, Dist: 0.0078, Reg: 0.0000, Center: 4.3658, Boundary: 0.0845, Lovasz: 33.7336
+2024-11-17 20:29:03,773 - training - INFO - Detailed losses - Var: 0.0752, Dist: 0.0074, Reg: 0.0000, Center: 4.4814, Boundary: 0.0467, Lovasz: 39.6041
+2024-11-17 20:29:04,278 - training - INFO - Detailed losses - Var: 0.0607, Dist: 0.0071, Reg: 0.0000, Center: 3.8516, Boundary: 0.0502, Lovasz: 33.0743
+2024-11-17 20:29:04,823 - training - INFO - Detailed losses - Var: 0.0765, Dist: 0.0066, Reg: 0.0000, Center: 4.5049, Boundary: 0.0444, Lovasz: 36.8001
+2024-11-17 20:29:05,330 - training - INFO - Detailed losses - Var: 0.0740, Dist: 0.0077, Reg: 0.0000, Center: 5.1326, Boundary: 0.0428, Lovasz: 33.1690
+2024-11-17 20:29:05,759 - training - INFO - Detailed losses - Var: 0.0473, Dist: 0.0077, Reg: 0.0000, Center: 3.2999, Boundary: 0.0612, Lovasz: 25.2894
+2024-11-17 20:29:06,365 - training - INFO - Detailed losses - Var: 0.0703, Dist: 0.0072, Reg: 0.0000, Center: 5.2512, Boundary: 0.0679, Lovasz: 43.2079
+2024-11-17 20:29:06,892 - training - INFO - Detailed losses - Var: 0.0836, Dist: 0.0071, Reg: 0.0000, Center: 5.4408, Boundary: 0.0394, Lovasz: 34.7458
+2024-11-17 20:29:07,410 - training - INFO - Detailed losses - Var: 0.0338, Dist: 0.0087, Reg: 0.0000, Center: 3.1038, Boundary: 0.1329, Lovasz: 34.4635
+2024-11-17 20:29:07,867 - training - INFO - Detailed losses - Var: 0.0577, Dist: 0.0079, Reg: 0.0000, Center: 4.1985, Boundary: 0.0652, Lovasz: 27.6449
+2024-11-17 20:29:08,224 - training - INFO - Detailed losses - Var: 0.0412, Dist: 0.0090, Reg: 0.0000, Center: 2.6764, Boundary: 0.0799, Lovasz: 17.4039
+2024-11-17 20:29:08,770 - training - INFO - Detailed losses - Var: 0.0452, Dist: 0.0090, Reg: 0.0000, Center: 4.0049, Boundary: 0.0916, Lovasz: 37.1031
+2024-11-17 20:29:09,300 - training - INFO - Detailed losses - Var: 0.0340, Dist: 0.0097, Reg: 0.0000, Center: 3.3456, Boundary: 0.1153, Lovasz: 36.0065
+2024-11-17 20:29:09,889 - training - INFO - Detailed losses - Var: 0.0470, Dist: 0.0090, Reg: 0.0000, Center: 3.9613, Boundary: 0.0805, Lovasz: 41.5459
+2024-11-17 20:29:10,409 - training - INFO - Detailed losses - Var: 0.0393, Dist: 0.0096, Reg: 0.0000, Center: 3.0323, Boundary: 0.0874, Lovasz: 34.6768
+2024-11-17 20:29:10,860 - training - INFO - Detailed losses - Var: 0.0295, Dist: 0.0098, Reg: 0.0000, Center: 2.6284, Boundary: 0.1357, Lovasz: 27.8343
+2024-11-17 20:29:11,443 - training - INFO - Detailed losses - Var: 0.0413, Dist: 0.0095, Reg: 0.0000, Center: 3.7009, Boundary: 0.1014, Lovasz: 39.9118
+2024-11-17 20:29:11,963 - training - INFO - Detailed losses - Var: 0.0411, Dist: 0.0102, Reg: 0.0000, Center: 3.5156, Boundary: 0.1171, Lovasz: 34.4459
+2024-11-17 20:29:12,331 - training - INFO - Detailed losses - Var: 0.0193, Dist: 0.0102, Reg: 0.0000, Center: 2.0102, Boundary: 0.1559, Lovasz: 19.4814
+2024-11-17 20:29:12,886 - training - INFO - Detailed losses - Var: 0.0273, Dist: 0.0105, Reg: 0.0000, Center: 3.0521, Boundary: 0.1458, Lovasz: 38.6087
+2024-11-17 20:29:13,388 - training - INFO - Detailed losses - Var: 0.0321, Dist: 0.0104, Reg: 0.0000, Center: 3.5738, Boundary: 0.1440, Lovasz: 32.8020
+2024-11-17 20:29:13,892 - training - INFO - Detailed losses - Var: 0.0198, Dist: 0.0108, Reg: 0.0000, Center: 2.6157, Boundary: 0.1605, Lovasz: 32.9587
+2024-11-17 20:29:14,393 - training - INFO - Detailed losses - Var: 0.0292, Dist: 0.0100, Reg: 0.0000, Center: 2.7807, Boundary: 0.1381, Lovasz: 32.8377
+2024-11-17 20:29:14,872 - training - INFO - Detailed losses - Var: 0.0203, Dist: 0.0104, Reg: 0.0000, Center: 2.5021, Boundary: 0.1697, Lovasz: 29.4416
+2024-11-17 20:29:15,309 - training - INFO - Detailed losses - Var: 0.0171, Dist: 0.0112, Reg: 0.0000, Center: 1.9065, Boundary: 0.1846, Lovasz: 26.5072
+2024-11-17 20:29:15,894 - training - INFO - Detailed losses - Var: 0.0277, Dist: 0.0102, Reg: 0.0000, Center: 2.8306, Boundary: 0.1494, Lovasz: 41.3382
+2024-11-17 20:29:16,338 - training - INFO - Detailed losses - Var: 0.0191, Dist: 0.0100, Reg: 0.0000, Center: 2.2749, Boundary: 0.1559, Lovasz: 26.9739
+2024-11-17 20:29:16,752 - training - INFO - Detailed losses - Var: 0.0155, Dist: 0.0113, Reg: 0.0000, Center: 1.9686, Boundary: 0.1869, Lovasz: 24.0268
+2024-11-17 20:29:17,263 - training - INFO - Detailed losses - Var: 0.0347, Dist: 0.0101, Reg: 0.0000, Center: 3.5225, Boundary: 0.1133, Lovasz: 34.0261
+2024-11-17 20:29:17,607 - training - INFO - Detailed losses - Var: 0.0138, Dist: 0.0116, Reg: 0.0000, Center: 1.4518, Boundary: 0.1960, Lovasz: 16.8096
+2024-11-17 20:29:18,108 - training - INFO - Detailed losses - Var: 0.0096, Dist: 0.0118, Reg: 0.0000, Center: 2.2425, Boundary: 0.2205, Lovasz: 33.3334
+2024-11-17 20:29:18,623 - training - INFO - Detailed losses - Var: 0.0163, Dist: 0.0115, Reg: 0.0000, Center: 2.3856, Boundary: 0.2033, Lovasz: 34.9975
+2024-11-17 20:29:19,210 - training - INFO - Detailed losses - Var: 0.0026, Dist: 0.0128, Reg: 0.0000, Center: 1.4767, Boundary: 0.2794, Lovasz: 42.1608
+2024-11-17 20:29:19,701 - training - INFO - Detailed losses - Var: 0.0075, Dist: 0.0124, Reg: 0.0000, Center: 1.8808, Boundary: 0.2413, Lovasz: 32.1180
+2024-11-17 20:29:20,203 - training - INFO - Detailed losses - Var: 0.0071, Dist: 0.0122, Reg: 0.0000, Center: 2.1469, Boundary: 0.2521, Lovasz: 33.3593
+2024-11-17 20:29:20,771 - training - INFO - Detailed losses - Var: 0.0042, Dist: 0.0124, Reg: 0.0000, Center: 1.5673, Boundary: 0.2630, Lovasz: 40.1411
+2024-11-17 20:29:21,193 - training - INFO - Detailed losses - Var: 0.0103, Dist: 0.0117, Reg: 0.0000, Center: 1.1820, Boundary: 0.2412, Lovasz: 24.8373
+2024-11-17 20:29:21,709 - training - INFO - Detailed losses - Var: 0.0047, Dist: 0.0127, Reg: 0.0000, Center: 1.8218, Boundary: 0.2831, Lovasz: 33.8967
+2024-11-17 20:29:22,168 - training - INFO - Detailed losses - Var: 0.0015, Dist: 0.0132, Reg: 0.0000, Center: 1.0308, Boundary: 0.3203, Lovasz: 29.1920
+2024-11-17 20:29:22,692 - training - INFO - Detailed losses - Var: 0.0061, Dist: 0.0126, Reg: 0.0000, Center: 1.5361, Boundary: 0.2832, Lovasz: 35.1230
+2024-11-17 20:29:23,176 - training - INFO - Detailed losses - Var: 0.0020, Dist: 0.0132, Reg: 0.0000, Center: 1.0187, Boundary: 0.3107, Lovasz: 30.9353
+2024-11-17 20:29:23,687 - training - INFO - Detailed losses - Var: 0.0007, Dist: 0.0135, Reg: 0.0000, Center: 0.9610, Boundary: 0.3499, Lovasz: 33.2041
+2024-11-17 20:29:24,132 - training - INFO - Detailed losses - Var: 0.0101, Dist: 0.0120, Reg: 0.0000, Center: 1.8091, Boundary: 0.2185, Lovasz: 27.0797
+2024-11-17 20:29:24,763 - training - INFO - Detailed losses - Var: 0.0046, Dist: 0.0130, Reg: 0.0000, Center: 1.7842, Boundary: 0.3044, Lovasz: 44.8935
+2024-11-17 20:29:25,356 - training - INFO - Detailed losses - Var: 0.0007, Dist: 0.0135, Reg: 0.0000, Center: 1.2543, Boundary: 0.3503, Lovasz: 42.4533
+2024-11-17 20:29:25,815 - training - INFO - Detailed losses - Var: 0.0018, Dist: 0.0133, Reg: 0.0000, Center: 0.9261, Boundary: 0.3299, Lovasz: 28.9470
+2024-11-17 20:29:26,178 - training - INFO - Detailed losses - Var: 0.0006, Dist: 0.0136, Reg: 0.0000, Center: 0.6522, Boundary: 0.3649, Lovasz: 18.7174
+2024-11-17 20:29:26,668 - training - INFO - Detailed losses - Var: 0.0016, Dist: 0.0132, Reg: 0.0000, Center: 0.9760, Boundary: 0.3347, Lovasz: 32.1927
+2024-11-17 20:29:27,334 - training - INFO - Detailed losses - Var: 0.0011, Dist: 0.0134, Reg: 0.0000, Center: 1.0122, Boundary: 0.3398, Lovasz: 49.9446
+2024-11-17 20:29:27,838 - training - INFO - Detailed losses - Var: 0.0030, Dist: 0.0136, Reg: 0.0000, Center: 1.2361, Boundary: 0.3520, Lovasz: 33.4346
+2024-11-17 20:29:28,398 - training - INFO - Detailed losses - Var: 0.0020, Dist: 0.0129, Reg: 0.0000, Center: 1.1122, Boundary: 0.3226, Lovasz: 39.1797
+2024-11-17 20:29:28,806 - training - INFO - Detailed losses - Var: 0.0026, Dist: 0.0133, Reg: 0.0000, Center: 0.8235, Boundary: 0.3238, Lovasz: 23.4407
+2024-11-17 20:29:29,301 - training - INFO - Detailed losses - Var: 0.0019, Dist: 0.0135, Reg: 0.0000, Center: 1.0761, Boundary: 0.3412, Lovasz: 32.6908
+2024-11-17 20:29:29,715 - training - INFO - Detailed losses - Var: 0.0011, Dist: 0.0134, Reg: 0.0000, Center: 0.7559, Boundary: 0.3393, Lovasz: 21.4573
+2024-11-17 20:29:30,216 - training - INFO - Detailed losses - Var: 0.0034, Dist: 0.0130, Reg: 0.0000, Center: 1.3880, Boundary: 0.3053, Lovasz: 33.1655
+2024-11-17 20:29:30,672 - training - INFO - Detailed losses - Var: 0.0054, Dist: 0.0128, Reg: 0.0000, Center: 1.3443, Boundary: 0.2870, Lovasz: 28.3918
+2024-11-17 20:29:31,314 - training - INFO - Detailed losses - Var: 0.0021, Dist: 0.0134, Reg: 0.0000, Center: 1.6225, Boundary: 0.3351, Lovasz: 47.9311
+2024-11-17 20:29:31,833 - training - INFO - Detailed losses - Var: 0.0009, Dist: 0.0139, Reg: 0.0000, Center: 1.0506, Boundary: 0.3549, Lovasz: 35.2035
+2024-11-17 20:29:32,302 - training - INFO - Detailed losses - Var: 0.0007, Dist: 0.0138, Reg: 0.0000, Center: 0.8915, Boundary: 0.3770, Lovasz: 29.7148
+2024-11-17 20:29:32,754 - training - INFO - Detailed losses - Var: 0.0033, Dist: 0.0130, Reg: 0.0000, Center: 1.1146, Boundary: 0.3172, Lovasz: 28.1771
+2024-11-17 20:29:33,183 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0144, Reg: 0.0000, Center: 0.4565, Boundary: 0.4089, Lovasz: 25.7356
+2024-11-17 20:29:33,648 - training - INFO - Detailed losses - Var: 0.0016, Dist: 0.0138, Reg: 0.0000, Center: 1.1641, Boundary: 0.3510, Lovasz: 29.7016
+2024-11-17 20:29:34,026 - training - INFO - Detailed losses - Var: 0.0016, Dist: 0.0140, Reg: 0.0000, Center: 0.8853, Boundary: 0.3744, Lovasz: 20.7151
+2024-11-17 20:29:34,387 - training - INFO - Detailed losses - Var: 0.0006, Dist: 0.0138, Reg: 0.0000, Center: 0.6122, Boundary: 0.3834, Lovasz: 19.2246
+2024-11-17 20:29:34,829 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0145, Reg: 0.0000, Center: 0.4253, Boundary: 0.4140, Lovasz: 27.2390
+2024-11-17 20:29:35,364 - training - INFO - Detailed losses - Var: 0.0021, Dist: 0.0132, Reg: 0.0000, Center: 1.3640, Boundary: 0.3173, Lovasz: 36.9306
+2024-11-17 20:29:35,780 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0146, Reg: 0.0000, Center: 0.4603, Boundary: 0.4155, Lovasz: 24.7376
+2024-11-17 20:29:36,191 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0141, Reg: 0.0000, Center: 0.5122, Boundary: 0.3983, Lovasz: 23.9819
+2024-11-17 20:29:36,700 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.3874, Boundary: 0.4390, Lovasz: 34.2431
+2024-11-17 20:29:37,137 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0144, Reg: 0.0000, Center: 0.5410, Boundary: 0.4047, Lovasz: 26.7334
+2024-11-17 20:29:37,583 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.4051, Boundary: 0.4335, Lovasz: 27.9933
+2024-11-17 20:29:37,962 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0146, Reg: 0.0000, Center: 0.3311, Boundary: 0.4289, Lovasz: 20.7420
+2024-11-17 20:29:38,473 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.4671, Boundary: 0.4273, Lovasz: 34.2407
+2024-11-17 20:29:38,942 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0143, Reg: 0.0000, Center: 0.4980, Boundary: 0.4084, Lovasz: 29.7344
+2024-11-17 20:29:39,409 - training - INFO - Detailed losses - Var: 0.0004, Dist: 0.0141, Reg: 0.0000, Center: 0.6579, Boundary: 0.3848, Lovasz: 29.7241
+2024-11-17 20:29:39,850 - training - INFO - Detailed losses - Var: 0.0003, Dist: 0.0145, Reg: 0.0000, Center: 0.4884, Boundary: 0.4215, Lovasz: 26.9839
+2024-11-17 20:29:40,295 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0144, Reg: 0.0000, Center: 0.3546, Boundary: 0.4257, Lovasz: 26.7397
+2024-11-17 20:29:40,811 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.4730, Boundary: 0.4351, Lovasz: 34.7405
+2024-11-17 20:29:41,126 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0146, Reg: 0.0000, Center: 0.3231, Boundary: 0.4221, Lovasz: 11.2411
+2024-11-17 20:29:41,742 - training - INFO - Detailed losses - Var: 0.0025, Dist: 0.0134, Reg: 0.0000, Center: 1.2834, Boundary: 0.3333, Lovasz: 45.4253
+2024-11-17 20:29:42,154 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0140, Reg: 0.0000, Center: 0.5049, Boundary: 0.4010, Lovasz: 24.2356
+2024-11-17 20:29:42,701 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0146, Reg: 0.0000, Center: 0.5935, Boundary: 0.4098, Lovasz: 37.9841
+2024-11-17 20:29:43,155 - training - INFO - Detailed losses - Var: 0.0005, Dist: 0.0143, Reg: 0.0000, Center: 0.7059, Boundary: 0.3995, Lovasz: 27.7260
+2024-11-17 20:29:43,522 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.2633, Boundary: 0.4313, Lovasz: 19.2440
+2024-11-17 20:29:44,039 - training - INFO - Detailed losses - Var: 0.0030, Dist: 0.0135, Reg: 0.0000, Center: 1.2617, Boundary: 0.3262, Lovasz: 34.9301
+2024-11-17 20:29:44,530 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3498, Boundary: 0.4491, Lovasz: 32.2450
+2024-11-17 20:29:45,041 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0145, Reg: 0.0000, Center: 0.5744, Boundary: 0.4157, Lovasz: 34.2329
+2024-11-17 20:29:45,529 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.4330, Boundary: 0.4422, Lovasz: 31.4925
+2024-11-17 20:29:46,005 - training - INFO - Detailed losses - Var: 0.0010, Dist: 0.0142, Reg: 0.0000, Center: 0.8089, Boundary: 0.3972, Lovasz: 30.7205
+2024-11-17 20:29:46,440 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0146, Reg: 0.0000, Center: 0.3618, Boundary: 0.4245, Lovasz: 26.4893
+2024-11-17 20:29:46,860 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0146, Reg: 0.0000, Center: 0.3506, Boundary: 0.4262, Lovasz: 21.9914
+2024-11-17 20:29:47,329 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0143, Reg: 0.0000, Center: 0.6612, Boundary: 0.4011, Lovasz: 29.7313
+2024-11-17 20:29:47,944 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.5232, Boundary: 0.4321, Lovasz: 45.2396
+2024-11-17 20:29:48,377 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.2826, Boundary: 0.4458, Lovasz: 26.2453
+2024-11-17 20:29:48,884 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3051, Boundary: 0.4535, Lovasz: 33.9958
+2024-11-17 20:29:49,432 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.4980, Boundary: 0.4469, Lovasz: 37.9933
+2024-11-17 20:29:50,021 - training - INFO - Detailed losses - Var: 0.0021, Dist: 0.0140, Reg: 0.0000, Center: 1.0497, Boundary: 0.3660, Lovasz: 42.1921
+2024-11-17 20:29:50,542 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3671, Boundary: 0.4466, Lovasz: 35.4947
+2024-11-17 20:29:51,089 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0143, Reg: 0.0000, Center: 0.7502, Boundary: 0.4184, Lovasz: 38.2322
+2024-11-17 20:29:51,501 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.2773, Boundary: 0.4465, Lovasz: 23.9956
+2024-11-17 20:29:52,064 - training - INFO - Detailed losses - Var: 0.0003, Dist: 0.0145, Reg: 0.0000, Center: 0.6540, Boundary: 0.4205, Lovasz: 39.9827
+2024-11-17 20:29:52,497 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3709, Boundary: 0.4487, Lovasz: 25.9935
+2024-11-17 20:29:52,946 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0148, Reg: 0.0000, Center: 0.3414, Boundary: 0.4456, Lovasz: 27.9949
+2024-11-17 20:29:53,372 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3483, Boundary: 0.4323, Lovasz: 25.4925
+2024-11-17 20:29:53,896 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2385, Boundary: 0.4626, Lovasz: 35.2477
+2024-11-17 20:29:54,438 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2701, Boundary: 0.4560, Lovasz: 37.4966
+2024-11-17 20:29:54,984 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0146, Reg: 0.0000, Center: 0.6435, Boundary: 0.4101, Lovasz: 37.9814
+2024-11-17 20:29:55,524 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3721, Boundary: 0.4514, Lovasz: 36.9948
+2024-11-17 20:29:55,840 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0147, Reg: 0.0000, Center: 0.2215, Boundary: 0.4451, Lovasz: 14.2435
+2024-11-17 20:29:56,375 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.4141, Boundary: 0.4429, Lovasz: 36.9920
+2024-11-17 20:29:56,925 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.4234, Boundary: 0.4444, Lovasz: 38.2422
+2024-11-17 20:29:57,649 - training - INFO - Detailed losses - Var: 0.0002, Dist: 0.0145, Reg: 0.0000, Center: 0.8343, Boundary: 0.4127, Lovasz: 55.7249
+2024-11-17 20:29:58,198 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.4418, Boundary: 0.4440, Lovasz: 38.2438
+2024-11-17 20:29:58,710 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.4910, Boundary: 0.4284, Lovasz: 34.2415
+2024-11-17 20:29:59,131 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.2463, Boundary: 0.4489, Lovasz: 25.2463
+2024-11-17 20:29:59,636 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3362, Boundary: 0.4529, Lovasz: 33.4949
+2024-11-17 20:30:00,031 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.2078, Boundary: 0.4516, Lovasz: 22.4960
+2024-11-17 20:30:00,606 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.4618, Boundary: 0.4316, Lovasz: 40.9915
+2024-11-17 20:30:01,165 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.4640, Boundary: 0.4388, Lovasz: 39.4923
+2024-11-17 20:30:01,662 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3785, Boundary: 0.4437, Lovasz: 29.7435
+2024-11-17 20:30:02,325 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3745, Boundary: 0.4589, Lovasz: 50.2456
+2024-11-17 20:30:02,894 - training - INFO - Detailed losses - Var: 0.0003, Dist: 0.0143, Reg: 0.0000, Center: 0.5191, Boundary: 0.4215, Lovasz: 40.2358
+2024-11-17 20:30:03,305 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0148, Reg: 0.0000, Center: 0.3229, Boundary: 0.4446, Lovasz: 23.7426
+2024-11-17 20:30:03,765 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3522, Boundary: 0.4392, Lovasz: 29.2427
+2024-11-17 20:30:04,377 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3119, Boundary: 0.4598, Lovasz: 44.7462
+2024-11-17 20:30:04,797 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0150, Reg: 0.0000, Center: 0.2413, Boundary: 0.4449, Lovasz: 24.9958
+2024-11-17 20:30:05,310 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2494, Boundary: 0.4616, Lovasz: 33.7476
+2024-11-17 20:30:05,648 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2025, Boundary: 0.4631, Lovasz: 16.2480
+2024-11-17 20:30:06,192 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2410, Boundary: 0.4661, Lovasz: 37.9978
+2024-11-17 20:30:06,627 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2372, Boundary: 0.4534, Lovasz: 26.4966
+2024-11-17 20:30:07,210 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3868, Boundary: 0.4562, Lovasz: 41.9953
+2024-11-17 20:30:07,612 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2143, Boundary: 0.4645, Lovasz: 22.9975
+2024-11-17 20:30:08,009 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1860, Boundary: 0.4664, Lovasz: 22.7481
+2024-11-17 20:30:08,474 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2302, Boundary: 0.4596, Lovasz: 29.4972
+2024-11-17 20:30:08,914 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.1896, Boundary: 0.4634, Lovasz: 26.9977
+2024-11-17 20:30:09,414 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2218, Boundary: 0.4548, Lovasz: 33.4972
+2024-11-17 20:30:09,923 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2357, Boundary: 0.4595, Lovasz: 33.7466
+2024-11-17 20:30:10,487 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2473, Boundary: 0.4703, Lovasz: 39.9980
+2024-11-17 20:30:10,938 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2772, Boundary: 0.4615, Lovasz: 28.2471
+2024-11-17 20:30:11,487 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2284, Boundary: 0.4677, Lovasz: 38.2474
+2024-11-17 20:30:11,941 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2266, Boundary: 0.4670, Lovasz: 28.7480
+2024-11-17 20:30:12,387 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1526, Boundary: 0.4748, Lovasz: 27.4988
+2024-11-17 20:30:12,808 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3251, Boundary: 0.4430, Lovasz: 25.2435
+2024-11-17 20:30:13,291 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2327, Boundary: 0.4579, Lovasz: 31.7471
+2024-11-17 20:30:13,746 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1837, Boundary: 0.4680, Lovasz: 28.4982
+2024-11-17 20:30:14,149 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.1958, Boundary: 0.4610, Lovasz: 23.4977
+2024-11-17 20:30:14,514 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.0903, Boundary: 0.4774, Lovasz: 19.2493
+2024-11-17 20:30:14,921 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1647, Boundary: 0.4643, Lovasz: 23.9974
+2024-11-17 20:30:15,462 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1946, Boundary: 0.4717, Lovasz: 37.4985
+2024-11-17 20:30:15,957 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0149, Reg: 0.0000, Center: 0.4326, Boundary: 0.4351, Lovasz: 32.7417
+2024-11-17 20:30:16,550 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3654, Boundary: 0.4558, Lovasz: 42.9949
+2024-11-17 20:30:17,032 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.3586, Boundary: 0.4525, Lovasz: 31.4952
+2024-11-17 20:30:17,424 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1102, Boundary: 0.4752, Lovasz: 21.9992
+2024-11-17 20:30:17,974 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2508, Boundary: 0.4638, Lovasz: 38.4977
+2024-11-17 20:30:18,573 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0147, Reg: 0.0000, Center: 0.5599, Boundary: 0.4329, Lovasz: 43.4900
+2024-11-17 20:30:19,074 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2485, Boundary: 0.4694, Lovasz: 33.2474
+2024-11-17 20:30:19,553 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1798, Boundary: 0.4685, Lovasz: 30.9980
+2024-11-17 20:30:19,985 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1399, Boundary: 0.4697, Lovasz: 26.2487
+2024-11-17 20:30:20,564 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2633, Boundary: 0.4707, Lovasz: 41.4978
+2024-11-17 20:30:21,096 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2604, Boundary: 0.4549, Lovasz: 36.2457
+2024-11-17 20:30:21,658 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2758, Boundary: 0.4650, Lovasz: 39.2472
+2024-11-17 20:30:22,282 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1505, Boundary: 0.4757, Lovasz: 45.7489
+2024-11-17 20:30:22,699 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1206, Boundary: 0.4703, Lovasz: 24.2489
+2024-11-17 20:30:23,271 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3477, Boundary: 0.4559, Lovasz: 40.7461
+2024-11-17 20:30:23,666 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1376, Boundary: 0.4750, Lovasz: 21.7491
+2024-11-17 20:30:24,094 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1596, Boundary: 0.4770, Lovasz: 25.9991
+2024-11-17 20:30:24,591 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1970, Boundary: 0.4707, Lovasz: 32.2483
+2024-11-17 20:30:25,022 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1198, Boundary: 0.4781, Lovasz: 25.7492
+2024-11-17 20:30:25,489 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3353, Boundary: 0.4472, Lovasz: 29.7443
+2024-11-17 20:30:25,930 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1601, Boundary: 0.4687, Lovasz: 27.2484
+2024-11-17 20:30:26,315 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1149, Boundary: 0.4744, Lovasz: 21.2487
+2024-11-17 20:30:26,964 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1293, Boundary: 0.4784, Lovasz: 45.9993
+2024-11-17 20:30:27,511 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1032, Boundary: 0.4823, Lovasz: 37.4994
+2024-11-17 20:30:27,965 - training - INFO - Detailed losses - Var: 0.0005, Dist: 0.0146, Reg: 0.0000, Center: 0.3594, Boundary: 0.4265, Lovasz: 25.4857
+2024-11-17 20:30:28,466 - training - INFO - Detailed losses - Var: 0.0009, Dist: 0.0141, Reg: 0.0000, Center: 0.9383, Boundary: 0.3746, Lovasz: 33.4649
+2024-11-17 20:30:28,981 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3263, Boundary: 0.4554, Lovasz: 34.4956
+2024-11-17 20:30:29,443 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.3329, Boundary: 0.4577, Lovasz: 29.2453
+2024-11-17 20:30:30,070 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1708, Boundary: 0.4766, Lovasz: 43.2492
+2024-11-17 20:30:30,510 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1341, Boundary: 0.4705, Lovasz: 26.9989
+2024-11-17 20:30:31,066 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1284, Boundary: 0.4811, Lovasz: 38.7492
+2024-11-17 20:30:31,741 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2540, Boundary: 0.4669, Lovasz: 51.2472
+2024-11-17 20:30:32,249 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1250, Boundary: 0.4809, Lovasz: 33.9993
+2024-11-17 20:30:32,786 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1396, Boundary: 0.4748, Lovasz: 36.7485
+2024-11-17 20:30:33,237 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1626, Boundary: 0.4718, Lovasz: 27.9986
+2024-11-17 20:30:33,715 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1605, Boundary: 0.4704, Lovasz: 30.9987
+2024-11-17 20:30:34,393 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0149, Reg: 0.0000, Center: 0.4871, Boundary: 0.4280, Lovasz: 51.2392
+2024-11-17 20:30:34,850 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1853, Boundary: 0.4708, Lovasz: 28.4981
+2024-11-17 20:30:35,328 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1144, Boundary: 0.4813, Lovasz: 30.9995
+2024-11-17 20:30:35,918 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1751, Boundary: 0.4726, Lovasz: 42.4984
+2024-11-17 20:30:36,475 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1043, Boundary: 0.4827, Lovasz: 38.9996
+2024-11-17 20:30:36,900 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1069, Boundary: 0.4777, Lovasz: 25.4993
+2024-11-17 20:30:37,307 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2302, Boundary: 0.4610, Lovasz: 23.7473
+2024-11-17 20:30:37,620 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.0704, Boundary: 0.4788, Lovasz: 13.7495
+2024-11-17 20:30:38,176 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.2158, Boundary: 0.4731, Lovasz: 39.2488
+2024-11-17 20:30:38,657 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.2255, Boundary: 0.4671, Lovasz: 30.7477
+2024-11-17 20:30:39,194 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2462, Boundary: 0.4600, Lovasz: 37.2460
+2024-11-17 20:30:39,706 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1321, Boundary: 0.4771, Lovasz: 33.9991
+2024-11-17 20:30:40,162 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1636, Boundary: 0.4743, Lovasz: 28.7487
+2024-11-17 20:30:40,774 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1215, Boundary: 0.4813, Lovasz: 44.9992
+2024-11-17 20:30:41,386 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1905, Boundary: 0.4733, Lovasz: 44.9986
+2024-11-17 20:30:41,916 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1214, Boundary: 0.4771, Lovasz: 35.9991
+2024-11-17 20:30:42,338 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1335, Boundary: 0.4762, Lovasz: 25.2490
+2024-11-17 20:30:42,842 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1212, Boundary: 0.4824, Lovasz: 33.2494
+2024-11-17 20:30:43,288 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1080, Boundary: 0.4865, Lovasz: 27.4996
+2024-11-17 20:30:43,947 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.3919, Boundary: 0.4532, Lovasz: 46.2441
+2024-11-17 20:30:44,453 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.2046, Boundary: 0.4662, Lovasz: 33.9983
+2024-11-17 20:30:45,001 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1131, Boundary: 0.4792, Lovasz: 37.9993
+2024-11-17 20:30:45,504 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0785, Boundary: 0.4838, Lovasz: 33.4995
+2024-11-17 20:30:46,102 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1953, Boundary: 0.4770, Lovasz: 43.4989
+2024-11-17 20:30:46,531 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1070, Boundary: 0.4824, Lovasz: 25.9994
+2024-11-17 20:30:47,068 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1188, Boundary: 0.4810, Lovasz: 37.2495
+2024-11-17 20:30:47,509 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1195, Boundary: 0.4820, Lovasz: 26.9992
+2024-11-17 20:30:47,924 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0770, Boundary: 0.4814, Lovasz: 24.2494
+2024-11-17 20:30:48,302 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0640, Boundary: 0.4865, Lovasz: 20.7497
+2024-11-17 20:30:48,673 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0720, Boundary: 0.4822, Lovasz: 19.9997
+2024-11-17 20:30:49,335 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1353, Boundary: 0.4860, Lovasz: 49.9995
+2024-11-17 20:30:49,797 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1534, Boundary: 0.4738, Lovasz: 28.9990
+2024-11-17 20:30:50,222 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1116, Boundary: 0.4840, Lovasz: 25.4995
+2024-11-17 20:30:51,021 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.2295, Boundary: 0.4783, Lovasz: 63.7482
+2024-11-17 20:30:51,518 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0869, Boundary: 0.4836, Lovasz: 32.2495
+2024-11-17 20:30:51,972 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1992, Boundary: 0.4672, Lovasz: 28.2477
+2024-11-17 20:30:52,450 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0847, Boundary: 0.4870, Lovasz: 30.9997
+2024-11-17 20:30:52,964 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1304, Boundary: 0.4768, Lovasz: 34.4991
+2024-11-17 20:30:53,369 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0962, Boundary: 0.4823, Lovasz: 23.4995
+2024-11-17 20:30:53,777 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1085, Boundary: 0.4776, Lovasz: 23.2490
+2024-11-17 20:30:54,315 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1298, Boundary: 0.4796, Lovasz: 37.2491
+2024-11-17 20:30:54,737 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1019, Boundary: 0.4770, Lovasz: 24.9992
+2024-11-17 20:30:55,139 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1393, Boundary: 0.4755, Lovasz: 22.9985
+2024-11-17 20:30:55,619 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1362, Boundary: 0.4731, Lovasz: 31.2488
+2024-11-17 20:30:56,236 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1328, Boundary: 0.4799, Lovasz: 44.9991
+2024-11-17 20:30:56,675 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0788, Boundary: 0.4874, Lovasz: 26.7497
+2024-11-17 20:30:57,160 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1225, Boundary: 0.4806, Lovasz: 31.7492
+2024-11-17 20:30:57,673 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0923, Boundary: 0.4858, Lovasz: 34.4996
+2024-11-17 20:30:58,108 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0772, Boundary: 0.4855, Lovasz: 26.4997
+2024-11-17 20:30:58,625 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1199, Boundary: 0.4807, Lovasz: 34.9994
+2024-11-17 20:30:59,211 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0863, Boundary: 0.4875, Lovasz: 41.9997
+2024-11-17 20:30:59,622 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0674, Boundary: 0.4835, Lovasz: 23.4996
+2024-11-17 20:31:00,178 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1289, Boundary: 0.4808, Lovasz: 38.9991
+2024-11-17 20:31:00,694 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0148, Reg: 0.0000, Center: 0.4258, Boundary: 0.4321, Lovasz: 34.7393
+2024-11-17 20:31:01,077 - training - INFO - Detailed losses - Var: 0.0003, Dist: 0.0147, Reg: 0.0000, Center: 0.3208, Boundary: 0.4337, Lovasz: 21.2383
+2024-11-17 20:31:01,675 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0758, Boundary: 0.4845, Lovasz: 43.2497
+2024-11-17 20:31:02,142 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0801, Boundary: 0.4824, Lovasz: 29.7496
+2024-11-17 20:31:02,590 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0150, Reg: 0.0000, Center: 0.2630, Boundary: 0.4563, Lovasz: 27.9933
+2024-11-17 20:31:03,097 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0972, Boundary: 0.4816, Lovasz: 34.2495
+2024-11-17 20:31:03,490 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0151, Reg: 0.0000, Center: 0.2128, Boundary: 0.4468, Lovasz: 21.4968
+2024-11-17 20:31:04,074 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1111, Boundary: 0.4802, Lovasz: 41.7492
+2024-11-17 20:31:04,495 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1410, Boundary: 0.4778, Lovasz: 25.2488
+2024-11-17 20:31:05,073 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1032, Boundary: 0.4823, Lovasz: 40.9994
+2024-11-17 20:31:05,491 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0887, Boundary: 0.4822, Lovasz: 24.4995
+2024-11-17 20:31:05,885 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1872, Boundary: 0.4722, Lovasz: 21.9985
+2024-11-17 20:31:06,354 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1182, Boundary: 0.4776, Lovasz: 30.2491
+2024-11-17 20:31:06,976 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1258, Boundary: 0.4804, Lovasz: 45.2491
+2024-11-17 20:31:07,274 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0675, Boundary: 0.4886, Lovasz: 21.9998
+2024-11-17 20:31:07,907 - training - INFO - Training loss: 33.4114
+2024-11-17 20:31:25,061 - training - INFO - Validation loss: 32.2891
+2024-11-17 20:31:25,266 - training - INFO - Saved new best model with validation loss: 32.2891
+2024-11-17 20:31:25,266 - training - INFO - Epoch 2/50
+2024-11-17 20:31:37,964 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1460, Boundary: 0.4754, Lovasz: 31.2485
+2024-11-17 20:31:38,503 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0982, Boundary: 0.4872, Lovasz: 37.9996
+2024-11-17 20:31:38,887 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0806, Boundary: 0.4819, Lovasz: 20.9995
+2024-11-17 20:31:39,273 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0582, Boundary: 0.4843, Lovasz: 21.4997
+2024-11-17 20:31:39,677 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1059, Boundary: 0.4798, Lovasz: 23.2493
+2024-11-17 20:31:40,134 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1375, Boundary: 0.4769, Lovasz: 25.9988
+2024-11-17 20:31:40,702 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1938, Boundary: 0.4706, Lovasz: 40.9977
+2024-11-17 20:31:41,084 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1289, Boundary: 0.4800, Lovasz: 21.7491
+2024-11-17 20:31:41,408 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.0913, Boundary: 0.4745, Lovasz: 15.2492
+2024-11-17 20:31:41,949 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0714, Boundary: 0.4867, Lovasz: 37.9997
+2024-11-17 20:31:42,504 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0914, Boundary: 0.4883, Lovasz: 39.7496
+2024-11-17 20:31:43,117 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.1061, Boundary: 0.4855, Lovasz: 45.4995
+2024-11-17 20:31:43,572 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0152, Reg: 0.0000, Center: 0.1327, Boundary: 0.4804, Lovasz: 28.2492
+2024-11-17 20:31:44,041 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0621, Boundary: 0.4885, Lovasz: 31.2498
+2024-11-17 20:31:44,517 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0542, Boundary: 0.4882, Lovasz: 31.2499
+2024-11-17 20:31:44,851 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0569, Boundary: 0.4880, Lovasz: 16.4998
+2024-11-17 20:31:45,322 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1327, Boundary: 0.4760, Lovasz: 31.2489
+2024-11-17 20:31:45,773 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.2038, Boundary: 0.4720, Lovasz: 28.9968
+2024-11-17 20:31:46,269 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0751, Boundary: 0.4870, Lovasz: 33.7497
+2024-11-17 20:31:46,768 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1446, Boundary: 0.4777, Lovasz: 34.4987
+2024-11-17 20:31:47,198 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0624, Boundary: 0.4852, Lovasz: 26.7497
+2024-11-17 20:31:47,876 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1107, Boundary: 0.4854, Lovasz: 48.7494
+2024-11-17 20:31:48,442 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1726, Boundary: 0.4773, Lovasz: 40.7485
+2024-11-17 20:31:48,916 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0662, Boundary: 0.4866, Lovasz: 31.2497
+2024-11-17 20:31:49,451 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0746, Boundary: 0.4899, Lovasz: 38.2498
+2024-11-17 20:31:49,822 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0603, Boundary: 0.4873, Lovasz: 20.2497
+2024-11-17 20:31:50,356 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0849, Boundary: 0.4857, Lovasz: 38.2496
+2024-11-17 20:31:50,911 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1991, Boundary: 0.4770, Lovasz: 39.7480
+2024-11-17 20:31:51,436 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0643, Boundary: 0.4909, Lovasz: 36.4998
+2024-11-17 20:31:51,961 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1513, Boundary: 0.4749, Lovasz: 33.2489
+2024-11-17 20:31:52,654 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1439, Boundary: 0.4815, Lovasz: 54.4986
+2024-11-17 20:31:53,061 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0938, Boundary: 0.4841, Lovasz: 24.2495
+2024-11-17 20:31:53,673 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0149, Reg: 0.0000, Center: 0.5014, Boundary: 0.4407, Lovasz: 45.9916
+2024-11-17 20:31:54,072 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1224, Boundary: 0.4809, Lovasz: 23.4992
+2024-11-17 20:31:54,564 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0433, Boundary: 0.4912, Lovasz: 32.9999
+2024-11-17 20:31:55,170 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0626, Boundary: 0.4886, Lovasz: 45.7498
+2024-11-17 20:31:55,723 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0842, Boundary: 0.4880, Lovasz: 39.4996
+2024-11-17 20:31:56,263 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0882, Boundary: 0.4845, Lovasz: 37.9996
+2024-11-17 20:31:56,659 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0916, Boundary: 0.4819, Lovasz: 23.2495
+2024-11-17 20:31:57,050 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1279, Boundary: 0.4803, Lovasz: 22.9991
+2024-11-17 20:31:57,485 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0637, Boundary: 0.4866, Lovasz: 27.7498
+2024-11-17 20:31:58,067 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1460, Boundary: 0.4800, Lovasz: 43.2487
+2024-11-17 20:31:58,462 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1269, Boundary: 0.4784, Lovasz: 23.2491
+2024-11-17 20:31:58,895 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1534, Boundary: 0.4734, Lovasz: 27.4983
+2024-11-17 20:31:59,379 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0150, Reg: 0.0000, Center: 0.2635, Boundary: 0.4543, Lovasz: 32.4951
+2024-11-17 20:31:59,733 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0611, Boundary: 0.4860, Lovasz: 18.2497
+2024-11-17 20:32:00,319 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0805, Boundary: 0.4904, Lovasz: 42.9998
+2024-11-17 20:32:00,783 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0437, Boundary: 0.4917, Lovasz: 29.4999
+2024-11-17 20:32:01,220 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0510, Boundary: 0.4888, Lovasz: 27.2498
+2024-11-17 20:32:01,710 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0465, Boundary: 0.4927, Lovasz: 32.9999
+2024-11-17 20:32:02,173 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0760, Boundary: 0.4872, Lovasz: 30.7496
+2024-11-17 20:32:02,654 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0810, Boundary: 0.4831, Lovasz: 31.7495
+2024-11-17 20:32:03,087 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0381, Boundary: 0.4896, Lovasz: 26.9999
+2024-11-17 20:32:03,522 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0872, Boundary: 0.4799, Lovasz: 24.7494
+2024-11-17 20:32:03,968 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0783, Boundary: 0.4844, Lovasz: 28.2496
+2024-11-17 20:32:04,571 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.1395, Boundary: 0.4817, Lovasz: 44.7488
+2024-11-17 20:32:05,105 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0819, Boundary: 0.4864, Lovasz: 37.4996
+2024-11-17 20:32:05,495 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0545, Boundary: 0.4907, Lovasz: 22.2499
+2024-11-17 20:32:05,976 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1237, Boundary: 0.4791, Lovasz: 32.2489
+2024-11-17 20:32:06,457 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1515, Boundary: 0.4728, Lovasz: 31.9986
+2024-11-17 20:32:06,951 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0891, Boundary: 0.4856, Lovasz: 31.4997
+2024-11-17 20:32:07,460 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0771, Boundary: 0.4848, Lovasz: 28.7496
+2024-11-17 20:32:07,902 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0783, Boundary: 0.4856, Lovasz: 27.9997
+2024-11-17 20:32:08,488 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0828, Boundary: 0.4875, Lovasz: 41.7497
+2024-11-17 20:32:08,980 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0662, Boundary: 0.4870, Lovasz: 32.9996
+2024-11-17 20:32:09,460 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.2244, Boundary: 0.4770, Lovasz: 31.4976
+2024-11-17 20:32:09,904 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0799, Boundary: 0.4814, Lovasz: 28.2494
+2024-11-17 20:32:10,349 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0480, Boundary: 0.4906, Lovasz: 28.2499
+2024-11-17 20:32:10,747 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0671, Boundary: 0.4895, Lovasz: 23.2498
+2024-11-17 20:32:11,133 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0687, Boundary: 0.4871, Lovasz: 21.4997
+2024-11-17 20:32:11,564 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0619, Boundary: 0.4890, Lovasz: 25.9997
+2024-11-17 20:32:12,095 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0916, Boundary: 0.4870, Lovasz: 37.2496
+2024-11-17 20:32:12,835 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0786, Boundary: 0.4875, Lovasz: 56.2497
+2024-11-17 20:32:13,390 - training - INFO - Detailed losses - Var: 0.0001, Dist: 0.0150, Reg: 0.0000, Center: 0.2966, Boundary: 0.4515, Lovasz: 34.7444
+2024-11-17 20:32:13,781 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0154, Reg: 0.0000, Center: 0.0751, Boundary: 0.4828, Lovasz: 20.4997
+2024-11-17 20:32:25,008 - training - INFO - Using device: cuda
+2024-11-17 20:32:25,951 - training - INFO - Epoch 1/50
+2024-11-17 20:34:49,689 - training - INFO - Training loss: 33.4401
+2024-11-17 20:35:06,831 - training - INFO - Validation loss: 32.2894
+2024-11-17 20:35:06,832 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0153, Reg: 0.0000, Center: 0.1959, Boundary: 0.4684, Lovasz: 32.4984
+2024-11-17 20:35:07,049 - training - INFO - Saved new best model with validation loss: 32.2894
+2024-11-17 20:35:07,050 - training - INFO - Epoch 2/50
+2024-11-17 20:37:30,640 - training - INFO - Training loss: 32.6891
+2024-11-17 20:37:47,751 - training - INFO - Validation loss: 32.2411
+2024-11-17 20:37:47,752 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0155, Reg: 0.0000, Center: 0.0618, Boundary: 0.4892, Lovasz: 32.4998
+2024-11-17 20:37:47,887 - training - INFO - Saved new best model with validation loss: 32.2411
+2024-11-17 20:37:47,887 - training - INFO - Epoch 3/50
+2024-11-17 20:40:11,245 - training - INFO - Training loss: 32.6423
+2024-11-17 20:40:28,426 - training - INFO - Validation loss: 32.2288
+2024-11-17 20:40:28,426 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0156, Reg: 0.0000, Center: 0.0403, Boundary: 0.4926, Lovasz: 32.4999
+2024-11-17 20:40:28,569 - training - INFO - Saved new best model with validation loss: 32.2288
+2024-11-17 20:40:28,569 - training - INFO - Epoch 4/50
+2024-11-17 20:42:51,763 - training - INFO - Training loss: 32.6439
+2024-11-17 20:43:08,908 - training - INFO - Validation loss: 32.2237
+2024-11-17 20:43:08,908 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0156, Reg: 0.0000, Center: 0.0265, Boundary: 0.4946, Lovasz: 32.5000
+2024-11-17 20:43:09,042 - training - INFO - Saved new best model with validation loss: 32.2237
+2024-11-17 20:43:09,042 - training - INFO - Epoch 5/50
+2024-11-17 20:45:31,894 - training - INFO - Training loss: 32.6330
+2024-11-17 20:45:49,079 - training - INFO - Validation loss: 32.2201
+2024-11-17 20:45:49,080 - training - INFO - Detailed losses - Var: 0.0000, Dist: 0.0156, Reg: 0.0000, Center: 0.0087, Boundary: 0.4982, Lovasz: 32.5000
+2024-11-17 20:48:59,601 - training - INFO - Using device: cuda
+2024-11-17 20:49:00,483 - training - INFO - Epoch 1/50
+2024-11-17 20:51:32,733 - training - INFO - Training loss: 2.3817
+2024-11-17 20:51:50,776 - training - INFO - Validation loss: 1.8090
+2024-11-17 20:51:50,776 - training - INFO - Detailed losses - Var: 0.0000, Dist: 1.1475, Reg: 0.0006, Center: 0.4385, Boundary: 0.5451, Lovasz: 32.4939
+2024-11-17 20:51:50,953 - training - INFO - Saved new best model with validation loss: 1.8090
+2024-11-17 20:51:50,954 - training - INFO - Epoch 2/50
+2024-11-17 20:54:31,571 - training - INFO - Training loss: 1.7899
+2024-11-17 20:54:49,654 - training - INFO - Validation loss: 1.7367
+2024-11-17 20:54:49,654 - training - INFO - Detailed losses - Var: 0.0000, Dist: 1.1854, Reg: 0.0006, Center: 0.1121, Boundary: 0.5845, Lovasz: 32.4996
+2024-11-17 20:54:49,790 - training - INFO - Saved new best model with validation loss: 1.7367
+2024-11-17 20:54:49,790 - training - INFO - Epoch 3/50
+2024-11-17 20:57:18,810 - training - INFO - Training loss: 1.7432
+2024-11-17 20:57:36,148 - training - INFO - Validation loss: 1.7223
+2024-11-17 20:57:36,148 - training - INFO - Detailed losses - Var: 0.0000, Dist: 1.1888, Reg: 0.0006, Center: 0.0957, Boundary: 0.5870, Lovasz: 32.4997
+2024-11-17 20:57:36,287 - training - INFO - Saved new best model with validation loss: 1.7223
+2024-11-17 20:57:36,287 - training - INFO - Epoch 4/50
+2024-11-17 21:00:05,692 - training - INFO - Training loss: 1.7280
+2024-11-17 21:00:23,067 - training - INFO - Validation loss: 1.7133
+2024-11-17 21:00:23,067 - training - INFO - Detailed losses - Var: 0.0000, Dist: 1.1932, Reg: 0.0006, Center: 0.0536, Boundary: 0.5919, Lovasz: 32.4999
+2024-11-17 21:00:23,202 - training - INFO - Saved new best model with validation loss: 1.7133
+2024-11-17 21:00:23,202 - training - INFO - Epoch 5/50
+2024-11-17 21:02:51,224 - training - INFO - Training loss: 1.7198
+2024-11-17 21:03:08,391 - training - INFO - Validation loss: 1.7108
+2024-11-17 21:03:08,392 - training - INFO - Detailed losses - Var: 0.0000, Dist: 1.1933, Reg: 0.0006, Center: 0.0544, Boundary: 0.5914, Lovasz: 32.4999
+2024-11-17 21:23:09,908 - training - INFO - Using device: cuda
+2024-11-17 21:25:07,892 - training - INFO - Using device: cuda
+2024-11-17 21:25:34,393 - training - INFO - Using device: cuda
+2024-11-17 21:25:49,706 - training - INFO - Using device: cuda
+2024-11-17 21:26:48,171 - training - INFO - Using device: cuda
+2024-11-17 21:26:49,057 - training - INFO - Epoch 1/100
+2024-11-17 21:27:21,521 - training - INFO - Using device: cuda
+2024-11-17 21:27:22,428 - training - INFO - Epoch 1/100
+2024-11-17 21:29:24,082 - training - INFO - Using device: cuda
+2024-11-17 21:29:24,971 - training - INFO - Epoch 1/100
+2024-11-17 21:33:47,603 - training - INFO - Using device: cuda
+2024-11-17 21:33:48,519 - training - INFO - Epoch 1/100
+2024-11-17 21:35:40,706 - training - INFO - Using device: cuda
+2024-11-17 21:35:41,586 - training - INFO - Epoch 1/100
+2024-11-17 21:36:42,613 - training - INFO - Training loss: 0.2995
+2024-11-17 21:36:52,307 - training - INFO - Validation loss: 0.2229
+2024-11-17 21:37:31,643 - training - INFO - Using device: cuda
+2024-11-17 21:37:32,515 - training - INFO - Epoch 1/100
+2024-11-17 21:38:34,365 - training - INFO - Training loss: 0.2913
+2024-11-17 21:38:44,257 - training - INFO - Validation loss: 0.2118
+2024-11-17 21:38:44,257 - training - INFO - Detailed losses - Instance: 0.1864, Smoothness: 0.1810, Pull: 0.0816, Push: 0.1049
+2024-11-17 21:38:44,482 - training - INFO - Saved new best model with validation loss: 0.2118
+2024-11-17 21:38:44,482 - training - INFO - Epoch 2/100
+2024-11-17 21:39:45,740 - training - INFO - Training loss: 0.1889
+2024-11-17 21:39:55,588 - training - INFO - Validation loss: 0.1652
+2024-11-17 21:39:55,589 - training - INFO - Detailed losses - Instance: 0.1341, Smoothness: 0.2137, Pull: 0.0647, Push: 0.0694
+2024-11-17 21:39:55,723 - training - INFO - Saved new best model with validation loss: 0.1652
+2024-11-17 21:39:55,723 - training - INFO - Epoch 3/100
+2024-11-17 21:40:57,180 - training - INFO - Training loss: 0.1573
+2024-11-17 21:41:07,190 - training - INFO - Validation loss: 0.1454
+2024-11-17 21:41:07,191 - training - INFO - Detailed losses - Instance: 0.1152, Smoothness: 0.2373, Pull: 0.0546, Push: 0.0606
+2024-11-17 21:41:07,353 - training - INFO - Saved new best model with validation loss: 0.1454
+2024-11-17 21:41:07,354 - training - INFO - Epoch 4/100
+2024-11-17 21:42:08,747 - training - INFO - Training loss: 0.1427
+2024-11-17 21:42:18,633 - training - INFO - Validation loss: 0.1342
+2024-11-17 21:42:18,633 - training - INFO - Detailed losses - Instance: 0.1014, Smoothness: 0.2440, Pull: 0.0468, Push: 0.0546
+2024-11-17 21:42:18,772 - training - INFO - Saved new best model with validation loss: 0.1342
+2024-11-17 21:42:18,773 - training - INFO - Epoch 5/100
+2024-11-17 21:43:20,222 - training - INFO - Training loss: 0.1319
+2024-11-17 21:43:30,088 - training - INFO - Validation loss: 0.1256
+2024-11-17 21:43:30,088 - training - INFO - Detailed losses - Instance: 0.0905, Smoothness: 0.2422, Pull: 0.0388, Push: 0.0516
+2024-11-17 21:56:27,388 - training - INFO - Using device: cuda
+2024-11-17 21:56:28,258 - training - INFO - Epoch 1/100
+2024-11-17 21:57:29,983 - training - INFO - Training loss: 0.3035
+2024-11-17 21:57:39,982 - training - INFO - Validation loss: 0.2317
+2024-11-17 21:57:39,983 - training - INFO - Detailed losses - Instance: 0.2285, Smoothness: 0.1366, Pull: 0.0926, Push: 0.1359
+2024-11-17 21:57:40,187 - training - INFO - Saved new best model with validation loss: 0.2317
+2024-11-17 21:57:40,187 - training - INFO - Epoch 2/100
+2024-11-17 21:58:41,666 - training - INFO - Training loss: 0.2049
+2024-11-17 21:58:51,556 - training - INFO - Validation loss: 0.1850
+2024-11-17 21:58:51,556 - training - INFO - Detailed losses - Instance: 0.1665, Smoothness: 0.2047, Pull: 0.0795, Push: 0.0871
+2024-11-17 21:58:51,704 - training - INFO - Saved new best model with validation loss: 0.1850
+2024-11-17 21:58:51,704 - training - INFO - Epoch 3/100
+2024-11-17 21:59:53,617 - training - INFO - Training loss: 0.1736
+2024-11-17 22:00:03,620 - training - INFO - Validation loss: 0.1644
+2024-11-17 22:00:03,620 - training - INFO - Detailed losses - Instance: 0.1487, Smoothness: 0.2324, Pull: 0.0709, Push: 0.0778
+2024-11-17 22:00:03,762 - training - INFO - Saved new best model with validation loss: 0.1644
+2024-11-17 22:00:03,762 - training - INFO - Epoch 4/100
+2024-11-17 22:01:05,203 - training - INFO - Training loss: 0.1561
+2024-11-17 22:01:15,124 - training - INFO - Validation loss: 0.1478
+2024-11-17 22:01:15,125 - training - INFO - Detailed losses - Instance: 0.1251, Smoothness: 0.2471, Pull: 0.0568, Push: 0.0683
+2024-11-17 22:01:15,267 - training - INFO - Saved new best model with validation loss: 0.1478
+2024-11-17 22:01:15,267 - training - INFO - Epoch 5/100
+2024-11-17 22:02:16,663 - training - INFO - Training loss: 0.1448
+2024-11-17 22:02:26,533 - training - INFO - Validation loss: 0.1393
+2024-11-17 22:02:26,534 - training - INFO - Detailed losses - Instance: 0.1191, Smoothness: 0.2541, Pull: 0.0538, Push: 0.0653
+2024-11-17 22:06:04,853 - training - INFO - Using device: cuda
+2024-11-17 22:06:05,735 - training - INFO - Epoch 1/100
+2024-11-17 22:07:10,542 - training - INFO - Training loss: 0.2926
+2024-11-17 22:07:20,465 - training - INFO - Validation loss: 0.2149
+2024-11-17 22:07:20,466 - training - INFO - Detailed losses - Instance: 0.1912, Smoothness: 0.2144, Pull: 0.0854, Push: 0.1058
+2024-11-17 22:07:20,647 - training - INFO - Saved new best model with validation loss: 0.2149
+2024-11-17 22:07:20,648 - training - INFO - Epoch 2/100
+2024-11-17 22:08:22,591 - training - INFO - Training loss: 0.1924
+2024-11-17 22:08:32,589 - training - INFO - Validation loss: 0.1720
+2024-11-17 22:08:32,590 - training - INFO - Detailed losses - Instance: 0.1529, Smoothness: 0.2521, Pull: 0.0697, Push: 0.0832
+2024-11-17 22:08:32,721 - training - INFO - Saved new best model with validation loss: 0.1720
+2024-11-17 22:08:32,721 - training - INFO - Epoch 3/100
+2024-11-17 22:09:35,654 - training - INFO - Training loss: 0.1631
+2024-11-17 22:09:45,926 - training - INFO - Validation loss: 0.1492
+2024-11-17 22:09:45,926 - training - INFO - Detailed losses - Instance: 0.1223, Smoothness: 0.2835, Pull: 0.0490, Push: 0.0733
+2024-11-17 22:09:46,066 - training - INFO - Saved new best model with validation loss: 0.1492
+2024-11-17 22:09:46,067 - training - INFO - Epoch 4/100
+2024-11-17 22:10:50,865 - training - INFO - Training loss: 0.1454
+2024-11-17 22:11:01,084 - training - INFO - Validation loss: 0.1360
+2024-11-17 22:11:01,084 - training - INFO - Detailed losses - Instance: 0.1079, Smoothness: 0.2810, Pull: 0.0438, Push: 0.0641
+2024-11-17 22:11:01,224 - training - INFO - Saved new best model with validation loss: 0.1360
+2024-11-17 22:11:01,225 - training - INFO - Epoch 5/100
+2024-11-17 22:12:06,410 - training - INFO - Training loss: 0.1344
+2024-11-17 22:12:16,349 - training - INFO - Validation loss: 0.1266
+2024-11-17 22:12:16,350 - training - INFO - Detailed losses - Instance: 0.0937, Smoothness: 0.2826, Pull: 0.0322, Push: 0.0615
+2024-11-17 22:12:16,350 - training - INFO - Generating visualizations...
+2024-11-17 22:14:56,697 - training - INFO - Using device: cuda
+2024-11-17 22:14:57,589 - training - INFO - Epoch 1/100
+2024-11-17 22:16:00,381 - training - INFO - Training loss: 0.2827
+2024-11-17 22:16:10,409 - training - INFO - Validation loss: 0.2080
+2024-11-17 22:16:10,409 - training - INFO - Detailed losses - Instance: 0.2029, Smoothness: 0.1869, Pull: 0.0803, Push: 0.1225
+2024-11-17 22:16:10,610 - training - INFO - Saved new best model with validation loss: 0.2080
+2024-11-17 22:16:10,610 - training - INFO - Epoch 2/100
+2024-11-17 22:17:12,313 - training - INFO - Training loss: 0.1867
+2024-11-17 22:17:22,261 - training - INFO - Validation loss: 0.1704
+2024-11-17 22:17:22,261 - training - INFO - Detailed losses - Instance: 0.1696, Smoothness: 0.2076, Pull: 0.0664, Push: 0.1032
+2024-11-17 22:17:22,396 - training - INFO - Saved new best model with validation loss: 0.1704
+2024-11-17 22:17:22,396 - training - INFO - Epoch 3/100
+2024-11-17 22:18:24,067 - training - INFO - Training loss: 0.1609
+2024-11-17 22:18:34,018 - training - INFO - Validation loss: 0.1511
+2024-11-17 22:18:34,018 - training - INFO - Detailed losses - Instance: 0.1342, Smoothness: 0.2487, Pull: 0.0530, Push: 0.0812
+2024-11-17 22:18:34,158 - training - INFO - Saved new best model with validation loss: 0.1511
+2024-11-17 22:18:34,159 - training - INFO - Epoch 4/100
+2024-11-17 22:19:35,755 - training - INFO - Training loss: 0.1477
+2024-11-17 22:19:45,745 - training - INFO - Validation loss: 0.1410
+2024-11-17 22:19:45,746 - training - INFO - Detailed losses - Instance: 0.1246, Smoothness: 0.2515, Pull: 0.0485, Push: 0.0762
+2024-11-17 22:19:45,885 - training - INFO - Saved new best model with validation loss: 0.1410
+2024-11-17 22:19:45,885 - training - INFO - Epoch 5/100
+2024-11-17 22:20:47,942 - training - INFO - Training loss: 0.1388
+2024-11-17 22:20:58,211 - training - INFO - Validation loss: 0.1321
+2024-11-17 22:20:58,212 - training - INFO - Detailed losses - Instance: 0.1140, Smoothness: 0.2540, Pull: 0.0418, Push: 0.0722
+2024-11-17 22:20:58,351 - training - INFO - Saved new best model with validation loss: 0.1321
+2024-11-17 22:20:58,351 - training - INFO - Epoch 6/100
+2024-11-17 22:22:00,221 - training - INFO - Training loss: 0.1314
+2024-11-17 22:22:10,165 - training - INFO - Validation loss: 0.1270
+2024-11-17 22:22:10,166 - training - INFO - Detailed losses - Instance: 0.1087, Smoothness: 0.2498, Pull: 0.0396, Push: 0.0691
+2024-11-17 22:22:10,308 - training - INFO - Saved new best model with validation loss: 0.1270
+2024-11-17 22:22:10,309 - training - INFO - Epoch 7/100
+2024-11-17 22:23:12,191 - training - INFO - Training loss: 0.1263
+2024-11-17 22:23:22,062 - training - INFO - Validation loss: 0.1214
+2024-11-17 22:23:22,063 - training - INFO - Detailed losses - Instance: 0.0935, Smoothness: 0.2517, Pull: 0.0365, Push: 0.0570
+2024-11-17 22:23:22,203 - training - INFO - Saved new best model with validation loss: 0.1214
+2024-11-17 22:23:22,204 - training - INFO - Epoch 8/100
+2024-11-17 22:24:23,916 - training - INFO - Training loss: 0.1218
+2024-11-17 22:24:33,892 - training - INFO - Validation loss: 0.1189
+2024-11-17 22:24:33,892 - training - INFO - Detailed losses - Instance: 0.0922, Smoothness: 0.2475, Pull: 0.0338, Push: 0.0584
+2024-11-17 22:24:34,031 - training - INFO - Saved new best model with validation loss: 0.1189
+2024-11-17 22:24:34,031 - training - INFO - Epoch 9/100
+2024-11-17 22:25:35,701 - training - INFO - Training loss: 0.1178
+2024-11-17 22:25:45,651 - training - INFO - Validation loss: 0.1140
+2024-11-17 22:25:45,651 - training - INFO - Detailed losses - Instance: 0.0860, Smoothness: 0.2474, Pull: 0.0350, Push: 0.0511
+2024-11-17 22:25:45,793 - training - INFO - Saved new best model with validation loss: 0.1140
+2024-11-17 22:25:45,793 - training - INFO - Epoch 10/100
+2024-11-17 22:26:47,339 - training - INFO - Training loss: 0.1143
+2024-11-17 22:26:57,226 - training - INFO - Validation loss: 0.1119
+2024-11-17 22:26:57,227 - training - INFO - Detailed losses - Instance: 0.0837, Smoothness: 0.2409, Pull: 0.0308, Push: 0.0529
+2024-11-17 22:26:57,362 - training - INFO - Saved new best model with validation loss: 0.1119
+2024-11-17 22:26:57,363 - training - INFO - Epoch 11/100
+2024-11-17 22:27:58,551 - training - INFO - Training loss: 0.1119
+2024-11-17 22:28:08,344 - training - INFO - Validation loss: 0.1082
+2024-11-17 22:28:08,344 - training - INFO - Detailed losses - Instance: 0.0779, Smoothness: 0.2516, Pull: 0.0287, Push: 0.0492
+2024-11-17 22:28:08,483 - training - INFO - Saved new best model with validation loss: 0.1082
+2024-11-17 22:28:08,484 - training - INFO - Epoch 12/100
+2024-11-17 22:29:10,632 - training - INFO - Training loss: 0.1096
+2024-11-17 22:29:20,583 - training - INFO - Validation loss: 0.1071
+2024-11-17 22:29:20,583 - training - INFO - Detailed losses - Instance: 0.0800, Smoothness: 0.2455, Pull: 0.0318, Push: 0.0482
+2024-11-17 22:29:20,727 - training - INFO - Saved new best model with validation loss: 0.1071
+2024-11-17 22:29:20,727 - training - INFO - Epoch 13/100
+2024-11-17 22:30:22,626 - training - INFO - Training loss: 0.1074
+2024-11-17 22:30:32,768 - training - INFO - Validation loss: 0.1061
+2024-11-17 22:30:32,768 - training - INFO - Detailed losses - Instance: 0.0834, Smoothness: 0.2359, Pull: 0.0291, Push: 0.0543
+2024-11-17 22:30:32,924 - training - INFO - Saved new best model with validation loss: 0.1061
+2024-11-17 22:30:32,925 - training - INFO - Epoch 14/100
+2024-11-17 22:31:38,429 - training - INFO - Training loss: 0.1058
+2024-11-17 22:31:48,426 - training - INFO - Validation loss: 0.1032
+2024-11-17 22:31:48,426 - training - INFO - Detailed losses - Instance: 0.0729, Smoothness: 0.2436, Pull: 0.0284, Push: 0.0445
+2024-11-17 22:31:48,703 - training - INFO - Saved new best model with validation loss: 0.1032
+2024-11-17 22:31:48,703 - training - INFO - Epoch 15/100
+2024-11-17 22:32:53,861 - training - INFO - Training loss: 0.1039
+2024-11-17 22:33:04,121 - training - INFO - Validation loss: 0.1029
+2024-11-17 22:33:04,121 - training - INFO - Detailed losses - Instance: 0.0786, Smoothness: 0.2416, Pull: 0.0250, Push: 0.0536
+2024-11-17 22:33:04,262 - training - INFO - Saved new best model with validation loss: 0.1029
+2024-11-17 22:33:04,262 - training - INFO - Epoch 16/100
+2024-11-17 22:34:10,676 - training - INFO - Training loss: 0.1024
+2024-11-17 22:34:20,815 - training - INFO - Validation loss: 0.1014
+2024-11-17 22:34:20,815 - training - INFO - Detailed losses - Instance: 0.0730, Smoothness: 0.2384, Pull: 0.0232, Push: 0.0498
+2024-11-17 22:34:20,969 - training - INFO - Saved new best model with validation loss: 0.1014
+2024-11-17 22:34:20,969 - training - INFO - Epoch 17/100
+2024-11-17 22:35:26,318 - training - INFO - Training loss: 0.1012
+2024-11-17 22:35:36,389 - training - INFO - Validation loss: 0.0997
+2024-11-17 22:35:36,390 - training - INFO - Detailed losses - Instance: 0.0684, Smoothness: 0.2490, Pull: 0.0272, Push: 0.0412
+2024-11-17 22:35:36,537 - training - INFO - Saved new best model with validation loss: 0.0997
+2024-11-17 22:35:36,538 - training - INFO - Epoch 18/100
+2024-11-17 22:36:41,395 - training - INFO - Training loss: 0.0997
+2024-11-17 22:36:51,496 - training - INFO - Validation loss: 0.0985
+2024-11-17 22:36:51,496 - training - INFO - Detailed losses - Instance: 0.0661, Smoothness: 0.2427, Pull: 0.0220, Push: 0.0441
+2024-11-17 22:36:51,649 - training - INFO - Saved new best model with validation loss: 0.0985
+2024-11-17 22:36:51,650 - training - INFO - Epoch 19/100
+2024-11-17 22:37:57,517 - training - INFO - Training loss: 0.0989
+2024-11-17 22:38:07,878 - training - INFO - Validation loss: 0.0976
+2024-11-17 22:38:07,879 - training - INFO - Detailed losses - Instance: 0.0654, Smoothness: 0.2335, Pull: 0.0176, Push: 0.0477
+2024-11-17 22:38:08,027 - training - INFO - Saved new best model with validation loss: 0.0976
+2024-11-17 22:38:08,027 - training - INFO - Epoch 20/100
+2024-11-17 22:39:13,538 - training - INFO - Training loss: 0.0979
+2024-11-17 22:39:24,028 - training - INFO - Validation loss: 0.0972
+2024-11-17 22:39:24,029 - training - INFO - Detailed losses - Instance: 0.0651, Smoothness: 0.2395, Pull: 0.0217, Push: 0.0434
+2024-11-17 22:39:24,197 - training - INFO - Saved new best model with validation loss: 0.0972
+2024-11-17 22:39:24,197 - training - INFO - Epoch 21/100
+2024-11-17 22:40:32,265 - training - INFO - Training loss: 0.0966
+2024-11-17 22:40:42,912 - training - INFO - Validation loss: 0.0961
+2024-11-17 22:40:42,913 - training - INFO - Detailed losses - Instance: 0.0671, Smoothness: 0.2371, Pull: 0.0168, Push: 0.0503
+2024-11-17 22:40:43,062 - training - INFO - Saved new best model with validation loss: 0.0961
+2024-11-17 22:40:43,062 - training - INFO - Epoch 22/100
+2024-11-17 22:41:49,892 - training - INFO - Training loss: 0.0957
+2024-11-17 22:42:00,267 - training - INFO - Validation loss: 0.0964
+2024-11-17 22:42:00,267 - training - INFO - Detailed losses - Instance: 0.0676, Smoothness: 0.2386, Pull: 0.0222, Push: 0.0454
+2024-11-17 22:42:00,396 - training - INFO - Epoch 23/100
+2024-11-17 22:43:06,284 - training - INFO - Training loss: 0.0946
+2024-11-17 22:43:16,972 - training - INFO - Validation loss: 0.0949
+2024-11-17 22:43:16,972 - training - INFO - Detailed losses - Instance: 0.0647, Smoothness: 0.2335, Pull: 0.0194, Push: 0.0453
+2024-11-17 22:43:17,117 - training - INFO - Saved new best model with validation loss: 0.0949
+2024-11-17 22:43:17,117 - training - INFO - Epoch 24/100

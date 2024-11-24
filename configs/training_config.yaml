@@ -1,97 +1,66 @@
-# General Training Configuration
-experiment:
-  name: "scannet_instance_seg"
-  notes: "Instance segmentation on ScanNet dataset"
-  tags: ["scannet", "instance", "3d"]
-  
-# Hardware settings
-hardware:
-  device: "mps"  # Use Metal Performance Shaders for Apple Silicon
-  num_workers: 4
-  pin_memory: true
-  
-# Training loop
+# Model configuration
+model:
+  embedding_dim: 64  # Dimension of instance embeddings
+  feature_dim: 6    # 3 for position + 3 for color
+
+# Training configuration
 training:
-  seed: 42
-  deterministic: true
-  
-  # Base training parameters
-  num_epochs: 200
-  save_interval: 5
-  eval_interval: 1
-  
-  # Batch sizes
-  batch_size:
-    train: 8
-    val: 16
-    test: 16
-  
-  # Checkpointing
-  checkpointing:
-    save_dir: "data/checkpoints"
-    save_best: true
-    save_last: true
-    save_interval_epochs: 10
-    
-  # Mixed precision training
-  amp:
+  batch_size: 8
+  num_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  num_workers: 4
+  early_stopping_patience: 15
+  visualization_frequency: 50
+  save_frequency: 5
+  gradient_clip: 1.0
+
+# Loss configuration
+loss:
+  type: 'instance_seg'
+  weights:
+    clustering: 1.0
+    center: 0.5
+    boundary: 0.3
+    lovasz: 0.01
+    smoothness: 0.08
+  params:
+    delta_v: 0.1
+    delta_d: 0.5
+    gamma: 0.0001
+    focal_alpha: 0.25
+    focal_gamma: 2.0
+
+# Data configuration
+data:
+  num_points: 8192
+  use_color: true
+  normalize_color: true
+  augmentation:
     enabled: true
-    dtype: "float16"
-    
-  # Gradient settings
-  gradient_clip_val: 1.0
-  accumulate_grad_batches: 1
+    random_rotation: true
+    random_scale: [0.8, 1.2]
+    random_flip: true
+    jitter_strength: 0.01
+    random_dropout: 0.2
+
+# Optimizer configuration
+optimizer:
+  type: 'adam'
+  beta1: 0.9
+  beta2: 0.999
+
+# Learning rate scheduler configuration
+scheduler:
+  enabled: true
+  type: 'cosine'  # Type of scheduler
+  T_max: 100      # Number of epochs
+  eta_min: 0.00001  # Minimum learning rate
+  patience: 15      # For early stopping
+  factor: 0.5     # Learning rate reduction factor
 
 # Logging configuration
 logging:
-  # Weights & Biases settings
-  wandb:
-    enabled: true
-    project: "pointcloud_segmentation"
-    entity: null  # Set your W&B username/team
-    log_interval: 100
-    
-  # Local logging
-  local:
-    log_dir: "logs"
-    save_interval: 100
-    
-  # Visualization settings
-  visualization:
-    enabled: true
-    num_samples: 4
-    max_points: 10000
-    save_dir: "visualizations"
-
-# Evaluation settings
-evaluation:
-  metrics:
-    - "map"
-    - "miou"
-    - "accuracy"
-    - "precision"
-    - "recall"
-    
-  # Validation settings
-  validation:
-    interval: 1
-    max_instances: 64
-    score_threshold: 0.5
-    nms_threshold: 0.3
-    
-  # Test-time augmentation
-  tta:
-    enabled: false
-    num_augmentations: 5
-
-# Debugging
-debug:
-  enabled: false
-  subset_size: 100
-  profile_memory: false
-  
-# Multi-GPU training
-distributed:
-  enabled: false
-  backend: "nccl"
-  sync_bn: true
+  log_frequency: 10
+  use_wandb: true
+  project_name: "scannet-instance-seg"
