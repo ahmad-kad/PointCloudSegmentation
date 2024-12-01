@@ -110,7 +110,7 @@ class DiscriminativeLoss(nn.Module):
             
             # Get unique instances
             unique_labels = torch.unique(label)
-            if unique_labels[0] == 0:  # Remove background
+            if unique_labels[0] == 0:  # Remove background from unique labels
                 unique_labels = unique_labels[1:]
             
             num_instances = len(unique_labels)
@@ -120,8 +120,8 @@ class DiscriminativeLoss(nn.Module):
             # Calculate cluster centers
             centers = []
             for instance_id in unique_labels:
-                mask = label == instance_id
-                center = embedding[mask].mean(0)
+                mask = label == instance_id # (N,)
+                center = embedding[mask].mean(0) # (E,)
                 centers.append(center)
             
             centers = torch.stack(centers)  # (I, E)
@@ -130,7 +130,7 @@ class DiscriminativeLoss(nn.Module):
             variance_term = 0
             for i, instance_id in enumerate(unique_labels):
                 mask = label == instance_id
-                instance_embeddings = embedding[mask]
+                instance_embeddings = embedding[mask] # (M, E)
                 center = centers[i]
                 
                 distance = torch.norm(instance_embeddings - center, p=2, dim=1)
@@ -148,7 +148,7 @@ class DiscriminativeLoss(nn.Module):
                     distance_term += distance
             
             if num_instances > 1:
-                distance_term /= (num_instances * (num_instances - 1)) / 2
+                distance_term /= (num_instances * (num_instances - 1)) / 2 # Combinations
             
             # Regularization term
             reg_term = torch.norm(centers, p=2, dim=1).mean()
@@ -157,4 +157,5 @@ class DiscriminativeLoss(nn.Module):
             instance_loss = self.alpha * variance_term + self.beta * distance_term + self.gamma * reg_term
             loss += instance_loss
         
+        #  Average over batch
         return loss / batch_size
