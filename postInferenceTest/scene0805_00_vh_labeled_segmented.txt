@@ -1,0 +1,33 @@
+Total points: 166499
+Number of instances: 14
+
+Instance 0:
+  Number of points: 4023
+Instance 1:
+  Number of points: 161207
+Instance 2:
+  Number of points: 20
+Instance 3:
+  Number of points: 401
+Instance 4:
+  Number of points: 230
+Instance 5:
+  Number of points: 314
+Instance 6:
+  Number of points: 76
+Instance 7:
+  Number of points: 21
+Instance 8:
+  Number of points: 13
+Instance 9:
+  Number of points: 27
+Instance 10:
+  Number of points: 15
+Instance 11:
+  Number of points: 57
+Instance 12:
+  Number of points: 50
+Instance 13:
+  Number of points: 20
+Instance 14:
+  Number of points: 25
