@@ -16,18 +16,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Data Preparation
+
 ```bash
+#Data Preparation
 python preprocess_data.py --config configs/preprocessing.yaml --raw-dir /path/to/scannet
-```
 
-### Training
-```bash
+# Training
 python train.py --config configs/training_config.yaml --data-dir data/processed
-```
 
-### Inference
-```bash
+# Inference
 python inference.py --checkpoint model.pth --input scene.ply
 ```
 
@@ -51,10 +48,6 @@ point2net/
 - End-to-end training pipeline
 - Real-time inference capability
 
-
-## Documentation
-
-Full documentation available in `docs/`
 
 ## License
 
