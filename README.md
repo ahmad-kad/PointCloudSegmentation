@@ -50,8 +50,7 @@ point2net/
 - Instance segmentation for 3D point clouds
 - End-to-end training pipeline
 - Real-time inference capability
-- Validation loss: 0.0949
-- Instance accuracy: 87.3%
+
 
 ## Documentation
 
