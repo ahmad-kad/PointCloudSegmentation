@@ -46,15 +46,6 @@ point2net/
 
 - Instance segmentation for 3D point clouds
 - End-to-end training pipeline
-- Real-time inference capability
-
-
-## License
-
-MIT License - See LICENSE file
-
-## Citations and Acknowledgements
-This project utilizes the ScanNet dataset for traini, tools, and builds upon existing research. We would like to acknowledge the following contributions:
 
 # References
 
