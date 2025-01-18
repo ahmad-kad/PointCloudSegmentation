@@ -1,15 +1,3 @@
-Your current README.md file is quite comprehensive, but here are some suggestions to make it even better:
-
-1. **Add a Table of Contents**: This helps users quickly navigate to different sections.
-2. **Expand the Project Description**: Provide more details about what the project does, its goals, and its applications.
-3. **Add Examples**: Include example commands and outputs to illustrate how to use the project.
-4. **Improved Formatting**: Use badges for things like build status, license, and version.
-5. **Contributing Guidelines**: Add a section detailing how others can contribute to the project.
-
-Here is an improved version of your README.md:
-
----
-
 # Point2Net
 
 Deep learning system for instance-level segmentation of 3D point cloud data.
@@ -146,7 +134,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For any questions or suggestions, feel free to open an issue or contact the maintainers.
-
----
-
-Feel free to further customize this README to suit your project's needs.
