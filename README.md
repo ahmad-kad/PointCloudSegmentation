@@ -1,11 +1,11 @@
-# Point2Net: Deep Learning Instance Segmentation for 3D Point Clouds
+PointCloud Segmentation
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![CUDA](https://img.shields.io/badge/CUDA-11.0%2B-green)
 
-Point2Net is a state-of-the-art deep learning system for instance-level segmentation of 3D point cloud data. Built with PyTorch, it delivers high-precision segmentation for applications in autonomous driving, robotics, and 3D scene understanding.
+PointCloud Segmentation is deep learning system for semantic segmentation of 3D point cloud data. Built with PyTorch, it delivers high-precision segmentation for applications in autonomous driving, robotics, and 3D scene understanding.
 
 <p align="center">
   <img src="docs/assets/point2net_architecture.png" alt="Point2Net Architecture" width="800"/>
@@ -20,11 +20,6 @@ Point2Net is a state-of-the-art deep learning system for instance-level segmenta
 - **Comprehensive Visualization**: Built-in tools for result analysis and visualization
 - **Experiment Tracking**: Integration with Weights & Biases for experiment monitoring
 
-## 📊 Performance
-
-- Average Instance IoU: 67.8%
-- Mean Average Precision: 71.2%
-- Processing Speed: 45 fps on RTX 3080
 
 ## 🛠️ Installation
 
